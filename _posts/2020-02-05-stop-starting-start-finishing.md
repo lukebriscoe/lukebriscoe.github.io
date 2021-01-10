@@ -29,14 +29,14 @@ Honestly, the biggest hurdle here was conquering the feeling of guilt that I wou
 Slack is my number one source of distraction, and the ‘pause notifications’ feature has really helped me out with this. Click the little 🔔 icon at the top near your name, and you can pause notifications for as long as you’d like. I prefer this to completely closing Slack as it means that if people do _need_ to contact me, they have the option to send me a notification anyway. This really helps with the guilty feeling I mentioned above, as I know people can get in touch if they need me urgently.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/pause-notifications.png">
+  <img width="180" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/pause-notifications.png?raw=true">
 </p>
 
 
 I also find it useful to keep my Slack status up to date with what I’m doing, and that I’m going to be slow to respond. I’ve found that since I’ve been using this, some people have held off sending me the message until later with a ‘Hey, I noticed you were focusing on something earlier&#8230;here’s the thing I was going to chat to you about’. If you see others with this kind of status, please help them stay focused by holding off on sending that message until later to limit the chance of a possible distraction 🤗
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/slack-status.png">
+  <img width="200" height="100" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/slack-status.png?raw=true">
 </p>
 
 

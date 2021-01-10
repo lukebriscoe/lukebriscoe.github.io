@@ -22,7 +22,7 @@ At the start of the week I define three things I ~~want~~ **need** to achieve fo
 I regularly check in against these three top priorities to make sure they’re still correct, and I dedicate some time each day to work on at least one of them. It&#8217;s worth noting these priorities sometimes span multiple weeks, and sometimes months, depending on the type of goal it is.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/top-priorities.png">
+  <img width="400" height="120" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/top-priorities.png?raw=true">
 </p>
 
 
@@ -33,7 +33,7 @@ This is where all my day-to-day actions and non-urgent things get recorded. I go
 Having a list like this means that I keep track of things I’ve said I’ll do throughout the week, and not feel stressed that I can’t get to them immediately. Anything that is time sensitive gets a due-by date that I use to help me prioritise this list properly, and then this influences what goes into my top three.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/tasks-actions.png">
+  <img width="400" height="160" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/tasks-actions.png?raw=true">
 </p>
 
 
@@ -42,7 +42,7 @@ Having a list like this means that I keep track of things I’ve said I’ll do 
 Sometimes I need to delegate things for others to work on; maybe to create development opportunities, or maybe because they’re better placed to do something than I am. This section helps me remember what I’ve asked someone to work on, and when we agreed it would be done by. I’ll glance over this section every couple of days or so to see if there’s anything I need to follow up on.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/delegated.png">
+  <img width="420" height="120" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/delegated.png?raw=true">
 </p>
 
 
@@ -51,7 +51,7 @@ Sometimes I need to delegate things for others to work on; maybe to create devel
 I (occasionally 😆) have ideas of things I / others can work on. When I have one of those moments where I think ‘wouldn’t it be great if we had this thing’ or ‘this thing isn’t quite working as well as I’d like it to’, I record it here. Things go here when it’s not a well-formed action yet, but intended as food for thought, and I review them when I have the headspace.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/ideas-example.png">
+  <img width="400" height="100" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/ideas-example.png?raw=true">
 </p>
 
 
@@ -60,7 +60,7 @@ I (occasionally 😆) have ideas of things I / others can work on. When I have o
 This is where I capture my personal goals for the quarter / half / year. I find it useful having them in the place that I go to every day to set and review my priorities, as they’re there as a reminder when I’m deciding about the most impactful thing to work on next. Just glancing over them a couple of times a week helps me consciously stay focused on the things I want to achieve and the skills I want to develop.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/goals.png">
+  <img width="400" height="120" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/goals.png?raw=true">
 </p>
 
 

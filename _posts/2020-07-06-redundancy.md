@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "😔 Managing through redundancies"
-subtitle:
+subtitle: Lessons for leading through redundancies
 date: 2020-07-06 22:30:00 +0100
 ---
 Redundancies.

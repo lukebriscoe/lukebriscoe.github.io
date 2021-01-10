@@ -30,7 +30,7 @@ Command + control + space is one shortcut you **need** to remember when you’re
 Monzo’s commitment to making sure that everyone can be themselves at work is incredible. We have trained mental first aiders available to support anyone who needs to talk something through, a dedicated #mental-health Slack channel, and a [public blog](https://monzo.com/blog/mental-health/) where we share what we’re doing in terms of mental health with our customers. The posters below are in every toilet cubicle, and you’re given a copy to keep for yourself as a reminder on your first day 🤗. We’re encouraged to regularly talk about our challenges and to offer support to the people around us.
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/Monzo-Mental-Health-Poster.png">
+  <img width="230" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/Monzo-Mental-Health-Poster.png?raw=true">
 </p>
 
 

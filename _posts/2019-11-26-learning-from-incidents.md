@@ -46,6 +46,4 @@ I close everything off by encouraging people to take three key messages away:
 
 **🧰 Invest in your people and tools**; train people to be good debrief attendees as well as facilitators, and use technology to take the pain of preparing for them away
 
-<p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/Learning-from-Incidents-External-version-1.pdf">
-</p>
+[The slides I used in this talk are available here on Github](https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/Learning-from-Incidents-External-version-1.pdf)

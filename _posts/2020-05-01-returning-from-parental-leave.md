@@ -24,7 +24,7 @@ I’ve struggled with the guilt of ‘leaving’ my family to go back to work. E
 One helpful thing I did write down before I went on leave was this:
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/read-when-back.png">
+  <img width="420" height="120" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/read-when-back.png?raw=true">
 </p>
 
 I can put a lot of pressure on myself sometimes to be on top of everything, all of the time. I knew I'd come back to work and feel like I'd need to know everything immediately, so I coached myself through this by asking the question ‘_what would you say to somebody you manage who was just coming back from parental leave?’"_I wrote my answer down in a place I knew I'd see it regularly, and I'm glad I did 😁
@@ -40,7 +40,7 @@ It’s been a learning process, and some things have helped more than others. He
 Set clear expectations with yourself and your family, and then with your team and your manager about what you will and won’t be able to do whilst you’re readjusting to working life. As an example, I shared this with my team on my first day back:
 
 <p align="center"> 
-  <img width="200" height="200" src="https://github.com/lukebriscoe/lukebriscoe.github.io/assets/img/Expectations.jpg">
+  <img width="800" height="160" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/expecations.jpg?raw=true">
 </p>
 
 Restarting your brain and adjusting to start thinking about things that aren’t solely related to looking after children can take time, so set that expectation and let others know what you need from them to help you.
