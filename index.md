@@ -14,4 +14,6 @@ sitemap:
     <p align="center">
     Previously, I've worked in technology and engineering roles with EnTech company <a href="https://ovo.com/">OVO</a>, luxury home and fashion retailer <a href="https://www.thewhitecompany.com/uk/">The White Company</a>, and health and beauty retailer <a href="https://www.boots.com/">Boots</a>. I've also spent some time in the public sector as a technology consultant with the Department for Education 👨🏼‍💻
     </p>
+    <p align="center">
     If you’d like to get in touch, feel free to contact me through any of the social channels at the top ↗️
+    </p>
