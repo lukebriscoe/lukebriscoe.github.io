@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/2021/02/19/trust-battery.html/</loc>
+      
+        <lastmod>2021-02-19T19:00:00+00:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/2020/07/06/redundancy.html/</loc>
       
         <lastmod>2020-07-06T22:30:00+01:00</lastmod>
@@ -128,7 +143,7 @@
     <url>
       <loc>http://localhost:4000/blog.html</loc>
       
-        <lastmod>2021-01-18T17:44:44+00:00</lastmod>
+        <lastmod>2021-02-19T19:27:57+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -143,7 +158,7 @@
     <url>
       <loc>http://localhost:4000/</loc>
       
-        <lastmod>2021-01-18T17:44:44+00:00</lastmod>
+        <lastmod>2021-02-19T19:27:57+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -158,7 +173,7 @@
     <url>
       <loc>http://localhost:4000/resume.html</loc>
       
-        <lastmod>2021-01-18T17:44:44+00:00</lastmod>
+        <lastmod>2021-02-19T19:27:57+00:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
