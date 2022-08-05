@@ -3,7 +3,22 @@
   
     
     <url>
-      <loc>http://localhost:4000/2021/06/22/gareth-southgate-eng-mgr.html/</loc>
+      <loc>https://lukebriscoe.com/2022/08/05/the-priorities-battle.html/</loc>
+      
+        <lastmod>2022-08-05T15:00:00+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.7</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://lukebriscoe.com/2021/06/22/gareth-southgate-eng-mgr.html/</loc>
       
         <lastmod>2021-06-22T07:00:00+01:00</lastmod>
       
@@ -18,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2021/02/19/trust-battery.html/</loc>
+      <loc>https://lukebriscoe.com/2021/02/19/trust-battery.html/</loc>
       
         <lastmod>2021-02-19T19:00:00+00:00</lastmod>
       
@@ -33,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/07/06/redundancy.html/</loc>
+      <loc>https://lukebriscoe.com/2020/07/06/redundancy.html/</loc>
       
         <lastmod>2020-07-06T22:30:00+01:00</lastmod>
       
@@ -48,7 +63,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/05/01/returning-from-parental-leave.html/</loc>
+      <loc>https://lukebriscoe.com/2020/05/01/returning-from-parental-leave.html/</loc>
       
         <lastmod>2020-05-01T22:30:00+01:00</lastmod>
       
@@ -63,7 +78,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2020/02/05/stop-starting-start-finishing.html/</loc>
+      <loc>https://lukebriscoe.com/2020/02/05/stop-starting-start-finishing.html/</loc>
       
         <lastmod>2020-02-05T21:30:00+00:00</lastmod>
       
@@ -78,7 +93,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2019/12/24/a-few-things-from-2019.html/</loc>
+      <loc>https://lukebriscoe.com/2019/12/24/a-few-things-from-2019.html/</loc>
       
         <lastmod>2019-12-24T07:00:00+00:00</lastmod>
       
@@ -93,7 +108,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2019/11/26/learning-from-incidents.html/</loc>
+      <loc>https://lukebriscoe.com/2019/11/26/learning-from-incidents.html/</loc>
       
         <lastmod>2019-11-26T07:00:00+00:00</lastmod>
       
@@ -108,7 +123,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2019/10/14/my-mgmt-guiding-principles.html/</loc>
+      <loc>https://lukebriscoe.com/2019/10/14/my-mgmt-guiding-principles.html/</loc>
       
         <lastmod>2019-10-14T22:30:00+01:00</lastmod>
       
@@ -123,7 +138,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2019/09/16/managing-time.html/</loc>
+      <loc>https://lukebriscoe.com/2019/09/16/managing-time.html/</loc>
       
         <lastmod>2019-09-16T22:30:00+01:00</lastmod>
       
@@ -138,7 +153,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2019/07/04/my-first-few-months-at-monzo.html/</loc>
+      <loc>https://lukebriscoe.com/2019/07/04/my-first-few-months-at-monzo.html/</loc>
       
         <lastmod>2019-07-04T22:30:00+01:00</lastmod>
       
@@ -156,9 +171,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog.html</loc>
+      <loc>https://lukebriscoe.com/blog.html</loc>
       
-        <lastmod>2021-06-22T08:38:27+01:00</lastmod>
+        <lastmod>2022-08-05T15:12:46+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,9 +186,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>https://lukebriscoe.com/</loc>
       
-        <lastmod>2021-06-22T08:38:27+01:00</lastmod>
+        <lastmod>2022-08-05T15:12:46+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,9 +201,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/resume.html</loc>
+      <loc>https://lukebriscoe.com/resume.html</loc>
       
-        <lastmod>2021-06-22T08:38:27+01:00</lastmod>
+        <lastmod>2022-08-05T15:12:46+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
