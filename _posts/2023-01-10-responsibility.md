@@ -2,7 +2,7 @@
 layout: page
 title: "🫡 Total responsibility"
 subtitle: <br> Is it ever 'somebody else's problem?'... 
-date: 2023-01-12 12:00:00 +0000
+date: 2023-01-11 22:22:00 +0000
 ---
 
 <p align="center"> 
