@@ -52,6 +52,7 @@ It also provided a nice on-ramp to the primary on-call schedule, and opened up s
 🟠 Our resolution times could have been even faster. Our response times were super fast, but sometimes an engineer would be paged and they'd have to spend time building context of the system that was broken<br>
 
 Considering all of this, it was time to evolve things further..
+<br>
 
 ## ⬆️ The Scale Up
 
@@ -80,6 +81,7 @@ We'd staff the specialist rotas with 4-6 engineers from some of these teams, and
 🟠 And as a result, there was still some friction in the process to get the right responders<br>
 
 So here comes the next evolution..!
+<br>
 
 ## 🧓 The Mature Org
 
@@ -106,6 +108,7 @@ This model worked very well for us for another 18-24 months:
 🟢 We’d greatly increased our chances that the page would land with someone who knows something about that system. Increasingly we wouldn't need to page another team for support - leading to faster resolution times <br>
 
 🟠 But, it still wasn’t perfect and we felt we could do even better - so we evolved things again...
+<br>
 
 ## 🤙 Today
 
@@ -126,6 +129,7 @@ We were able to do this mainly because our engineering teams were all well estab
 One of the key benefits with this devolved model of on-call is that teams have been able to optimise their processes to best suit the level of service they need to offer. Engineering Managers in each team are responsible for organising their on-call schedules. It's also down to the teams to set things up appropriately tailored to the systems that they own, and to iterate on and optimise it as necessary.
 
 In previous models on-call was managed centrally by me and a few others, and we were trying to apply a one-size-fits-all approach across all teams. THat worked well for a while, but the model we're iterated towards today means we can optimise to operate our services in the very best way possible. The best outcome for our teams and our customers!
+<br>
 
 ## 🦸 'On-call as your superpower...'
 
@@ -164,7 +168,8 @@ Make sure you're sharing your on-call lessons across all teams. We have an inter
 
 We also run a regular session at Monzo called ’Learning from Incidents’. This is a forum where engineers present an overview of an incident they’ve handled recently to a forum that's open to anyone in the company to join. They nearly always start their stories with being paged for something, and it's a great way to learn from the experiences of other teams. 
 
-And that was that for the talk. I'm incredibly proud of how we've scaled things over the years, and where we're at today - but I expect we'll keep evolving as the needs of our customers and scale of our business change over time. 
+## 👋 The End 
+And that was that for the talk. I'm incredibly proud of how we've scaled things and where we're at today - but I expect we'll keep evolving as the needs of our customers and scale of our business change over time. 
 
 Here's hoping that some of my lessons and advice can help you improve on-call wherever you work! 🤞 📟 
 
@@ -174,6 +179,3 @@ Here's hoping that some of my lessons and advice can help you improve on-call wh
 <img width="500" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/IMG_5164.JPG?raw=true">
 </p>
 
-<br>
-
-[Twitter](https://twitter.com/lukebriscoe) -- [LinkedIn](https://www.linkedin.com/in/lbriscoe/) -- [email](mailto:luke@lukebriscoe.com) 
