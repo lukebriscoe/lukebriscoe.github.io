@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> 🦸 On-call as your superpower — <br> Lessons & advice from scaling on-call  | Luke Briscoe</title>
+<meta name="description" content="My personal site 🚀
+">
+<meta name="keywords" content="">
+<link rel="canonical" href="/2023/04/19/on-call-as-a-superpower.html">
+<link rel="icon" type="image/jpeg" href="/assets/img/favicon.png"/>
+<link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/agate.css">
+
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190528811-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-190528811-1');
+</script>
+
+</head>
+<body>
+<div class="wrapper">
+<header class="header">
+<div class="navigation">
+<a href="/" class="logo">Luke Briscoe</a>
+<ul class="menu">
+<li class="menu__entry"><a href="/">Home</a></li>
+<li class="menu__entry"><a href="/blog">Blog</a></li>
+</ul>
+</div>
+<ul class="social-links">
+
+<a href="mailto:luke@lukebriscoe.com" class="social-links__entry" target="_blank">
+<i class="fa fa-envelope-square"></i>
+</a>
+
+
+
+<a href="https://linkedin.com/in/lbriscoe" class="social-links__entry" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+
+
+<a href="https://twitter.com/lukebriscoe" class="social-links__entry" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+
+</ul>
+</header>
+
+<h1 class="page-title">
+<div class="page-title__text">🦸 On-call as your superpower</div>
+<div class="page-title__subtitle"><br> Lessons & advice from scaling on-call</div>
+</h1>
+
+<p><em>In March 2023 I gave a talk about scaling on-call at the Bristol Tekcurious meetup, and this post outlines the talk’s content. I had a great time sharing some of my lessons from over the years and also getting to know so many people afterwards - thanks again to everyone who came along!</em></p>
+
+<h2 id="-on-call-in-context">📟 On-call in context</h2>
+
+<p>First up, when I’m talking about on-call, I’m talking about having a software engineer (or multiple) available 24x7 to respond to important alerts. Those alerts could suggest something has gone wrong, or something needs human intervention <em>before</em> it goes wrong - but regardless, it needs a rapid response.</p>
+
+<h2 id="️-monzos-on-call-journey">♻️ Monzo’s on-call journey</h2>
+
+<p>I spent most of the time in the talk sharing what I’ve learnt from scaling on-call at Monzo over the last few years. We’ve blogged about this on a few occasions on the Monzo blog (see <a href="https://monzo.com/blog/2018/09/20/on-call">this post</a>, <a href="https://monzo.com/blog/how-weve-evolved-on-call-at-monzo">this post</a> and <a href="https://monzo.com/blog/2022-02-24/scaling-our-on-call-process">this post</a> for the originals!). Much of my talk was about bringing the key messages from those three blogs to life, and sharing some of the lessons I’ve learnt personally along the way.</p>
+
+<p>We start things off with the early days at Monzo - ‘the rocketship’ phase.</p>
+
+<h2 id="-the-rocketship">🚀 The Rocketship</h2>
+
+<p>The early days of on-call used a super simple model. We defined our critical alerts that needed an immediate response, hooked them into PagerDuty to notify someone about it, and then had a group of engineers carry the pager so we could respond. We started out with a single rota with a small group of engineers on-call, and over time as we scaled we grew the number of engineers on-call in total.</p>
+
+<p>A single engineer would be on-call for a week at a time, and they’d be on-call for everything engineering-related at the company. These engineers formed what we called our ‘primary’ on-call rota, and they were the first point of contact for any alerts. Their job was to either fix the problem, or find someone who could.</p>
+
+<p>The high-level workflow looked something like this:</p>
+
+<p align="center"> 
+
+<img width="500" height="230" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/model1.png?raw=true" />
+
+</p>
+
+<p>This served us well for a couple of years - as more engineers joined, we grew the size of our primary rota and cycled more engineers in. Then we added our shadow on-call schedule into the mix too.</p>
+
+<p>The shadow rota meant that we’d have two people on-call at once for all of our systems. The primary on-caller would take the lead on a page, and the shadow on-caller would observe and support. Their main focus was to get comfortable with being on-call, learn how our systems work, and improve our documentation.</p>
+
+<p>It also provided a nice on-ramp to the primary on-call schedule, and opened up some good mentoring opportunities for engineers. When I joined the company in early 2019, this was still the model we were using.  It shows how well a simple on-call model can scale. Maybe something this simple is all you’ll ever need at your company!</p>
+
+<h3 id="-pros-and-cons">💭 Pros and cons</h3>
+
+<p>🟢 We’d get a human onto a problem very quickly<br /></p>
+
+<p>🟢 On-callers got broad exposure to our platform, and by extension, it provided good learning opportunities for them<br /></p>
+
+<p>🟢 It created strong incentives for engineers to document their code well, write high quality runbooks, and build resilience into their designs. Engineers knew that someone else might be responding to a problem with their services, so built with that in mind<br /></p>
+
+<p>🟠 As we scaled we found it more difficult to onboard new engineers to the rota. As we started to grow as an org and split into different teams, on-callers had to know a lot about our technology<br /></p>
+
+<p>🟠 On-call was a centrally owned process and set up to work in one way. Teams couldn’t easily optimise for their own services<br /></p>
+
+<p>🟠 Our resolution times could have been even faster. Our response times were super fast, but sometimes an engineer would be paged and they’d have to spend time building context of the system that was broken<br /></p>
+
+<p>Considering all of this, it was time to evolve things further..</p>
+
+<h2 id="️-the-scale-up">⬆️ The Scale Up</h2>
+
+<p>The next significant evolution of on-call came around about the time we’d hit our first 1 million customers. We introduced a new layer of ‘specialists’ who sat under our existing primary/shadow on-call rota. It looked a little something like this:</p>
+
+<p align="center"> 
+
+<img width="650" height="250" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/model2.png?raw=true" />
+
+</p>
+
+<p>By now we’d scaled the engineering org to have more dedicated specialist teams. Those teams were working on things like our platform and in specialist payments teams. We found that often it was expertise in these areas that we needed during incidents, and now that we had specialist teams available, it made sense to page them in when they were needed.</p>
+
+<p>We’d staff the specialist rotas with 4-6 engineers from some of these teams, and they were available as a formal escalation path for the primary/shadow on-callers. The process largely worked the same way as before, but the primary/shadow pair of on-call engineers now had quick access to specialist knowledge when they needed it.</p>
+
+<h3 id="-pros-and-cons-1">💭 Pros and cons</h3>
+
+<p>🟢 We had quicker access to teams with the right context and knowledge to be able to get them involved <br /></p>
+
+<p>🟢 Our response times remained super fast, and our resolution times sped up too<br /></p>
+
+<p>🟠 We were growing rapidly and hiring lots of new engineers. At times our specialist teams were still building knowledge themselves<br /></p>
+
+<p>🟠 Where problems clearly needed a specialist, the role of the primary on-caller basically became 1st line triage<br /></p>
+
+<p>🟠 And as a result, there was still some friction in the process to get the right responders<br /></p>
+
+<p>So here comes the next evolution..!</p>
+
+<h2 id="-the-mature-org">🧓 The Mature Org</h2>
+
+<p>This was the point where we were a much larger company, serving maybe ~3 million customers, and many of our teams and processes were more mature. We decided to push the alerts closer to what we call ‘collectives’ (aka departments) across Monzo.</p>
+
+<p>We reorganised our on-call schedules to be domain specific. We’d pool together 6-8 engineers from across many teams within a collective, and they’d act as the primary on-callers for critical alerts in their area of expertise. It looked something like this:</p>
+
+<p align="center"> 
+
+<img width="600" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/model3.png?raw=true" />
+
+</p>
+
+<p>An interesting problem to solve here was one of ‘how do we route the right alerts to the right teams now we have multiple?!’. We solved this by defining codeowners for each of our microservices and platform components in code, and then mapping that owner to a corresponding PagerDuty schedule.</p>
+
+<p>For example, If a critical alert fired relating to our Faster Payments processor, it’d be routed to the schedule staffed by Payments engineers as that collective was defined as the service codeowner.</p>
+
+<p>This model worked very well for us for another 18-24 months:</p>
+
+<h3 id="-pros-and-cons-2">💭 Pros and cons</h3>
+
+<p>🟢 The main benefit was that we were skipping the 1st line / primary on-caller step, and going direct to the teams who had engineers working on problems specific to their domain <br /></p>
+
+<p>🟢 We’d greatly increased our chances that the page would land with someone who knows something about that system. Increasingly we wouldn’t need to page another team for support - leading to faster resolution times <br /></p>
+
+<p>🟠 But, it still wasn’t perfect and we felt we could do even better - so we evolved things again…</p>
+
+<h2 id="-today">🤙 Today</h2>
+
+<p>And so here we are with how things are set up today serving our ~7 million customers. We introduced this way of managing on-call around the ~4.5m customer mark.</p>
+
+<p>This process works incredibly well for us right now, and we know it will scale as we grow as a business. We’ve now completely decentralised on-call - so pages/alerts are routed directly to the individual team that owns them. We respond rapidly, and have the right engineers immediately available to solve any problems - which has seen our resolution times improve again. It looks like this:</p>
+
+<p align="center"> 
+
+<img width="600" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/model4.png?raw=true" />
+
+</p>
+
+<p>And this is pretty obvious, right? <em>Of course we’d just route the alert directly to the team that can fix it?</em></p>
+
+<p>We were able to do this mainly because our engineering teams were all well established and well staffed by this time to manage their <em>own</em> healthy on-call rotation.</p>
+
+<p>One of the key benefits with this devolved model of on-call is that teams have been able to optimise their processes to best suit the level of service they need to offer. Engineering Managers in each team are responsible for organising their on-call schedules. It’s also down to the teams to set things up appropriately tailored to the systems that they own, and to iterate on and optimise it as necessary.</p>
+
+<p>In previous models on-call was managed centrally by me and a few others, and we were trying to apply a one-size-fits-all approach across all teams. THat worked well for a while, but the model we’re iterated towards today means we can optimise to operate our services in the very best way possible. The best outcome for our teams and our customers!</p>
+
+<h2 id="-on-call-as-your-superpower">🦸 ‘On-call as your superpower…’</h2>
+
+<p>Once I’d covered the history of on-call, I wrapped things up in the talk by sharing three key bits of advice from my personal experience. I shared that when done well, on-call has the potential to become a superpower <em>and</em> an enabler for your business.<br />
+<br /></p>
+
+<h3 id="-1-put-humans-at-the-centre-of-your-on-call-process">👪 1. Put humans at the centre of your on-call process</h3>
+
+<p>Design your processes around treating humans well. We’re not machines! As some practical advice, you can consider:</p>
+
+<ul>
+  <li>
+    <p>Giving teams time in hours to investigate deviant system behaviour that they have been paged for</p>
+  </li>
+  <li>
+    <p>Giving them time off in lieu if they’ve been paged overnight - and encourage this to be the norm</p>
+  </li>
+  <li>
+    <p>Paying engineers for being on-call!</p>
+  </li>
+  <li>
+    <p>Empowering teams to to set on-call up in the most optimal way to serve their customers/users</p>
+  </li>
+  <li>
+    <p>Encouraging managers to join on-call and get involved by (at least) supporting on-callers as an escalation point. Get them leading by example!</p>
+  </li>
+</ul>
+
+<p>By doing this I’ve actually seen waiting lists in some teams for engineers to go on-call, which is unheard of! <br />
+<br /></p>
+
+<h3 id="-2-dont-accept-deviant-system-behaviour">👺 2. Don’t accept deviant system behaviour</h3>
+
+<p>This is one of <a href="https://monzo.com/blog/2018/06/29/engineering-principles">Monzo’s engineering principles</a> and it’s served us incredibly well over the years.</p>
+
+<p>If someone is paged, don’t brush it off and think it’s ok. Run an analysis of what happened and stop it from re-occurring. Or if you can’t stop it, define how you can fix it faster next time or respond better.</p>
+
+<p>If you’re a leader, give your teams time in-hours to do this, and be especially hard on false alarms. Don’t risk your teams becoming desensitised to alerts that are paging them. <br />
+<br /></p>
+
+<h3 id="️-3-set-up-an-effective-way-to-iterate-on-your-on-call-process">♻️ 3. Set up an effective way to iterate on your on-call process</h3>
+
+<p>Make sure you’re sharing your on-call lessons across all teams. We have an internal Slack channel where on-callers can share lessons and ask each other for help which has been great for us to help level each other up. We’ve also ran regular on-call retros to help learning and sharing. We were very good at this in the early days, especially when we were a centralised group of on-callers, and it’s helped get us to where we are today. In a nutshell, listen to what your on-callers are saying you can do to improve, and act on it!</p>
+
+<p>We also run a regular session at Monzo called ’Learning from Incidents’. This is a forum where engineers present an overview of an incident they’ve handled recently to a forum that’s open to anyone in the company to join. They nearly always start their stories with being paged for something, and it’s a great way to learn from the experiences of other teams.</p>
+
+<p>And that was that for the talk. I’m incredibly proud of how we’ve scaled things over the years, and where we’re at today - but I expect we’ll keep evolving as the needs of our customers and scale of our business change over time.</p>
+
+<p>Here’s hoping that some of my lessons and advice can help you improve on-call wherever you work! 🤞 📟</p>
+
+<p><br /></p>
+
+<p align="center"> 
+<img width="500" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/IMG_5164.JPG?raw=true" />
+</p>
+
+<p><br /></p>
+
+<p><a href="https://twitter.com/lukebriscoe">Twitter</a> – <a href="https://www.linkedin.com/in/lbriscoe/">LinkedIn</a> – <a href="mailto:luke@lukebriscoe.com">email</a></p>
+
+
+<div class="about">
+    <br>
+<div class="about__devider">*****</div>
+<br>
+<div class="about__text">
+<strong> © Copyright 2023 - Luke Briscoe </strong>
+<br>
+<br>☕ Made using the Pudhina theme by Knhash 🛠️
+<br>
+</div>
+</div>
+
+
+</div>
+<script src="/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
