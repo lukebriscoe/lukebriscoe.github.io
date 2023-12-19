@@ -14,9 +14,9 @@ While there, I had the opportunity to go to [Werner Vogels' keynote](https://www
 
 This resonated with me personally as a few years back I had one of those moments of realisation that the AWS bill was getting too big. Ever since, a day hasn’t passed without me contemplating cloud cost optimisation.
 
-This post is a roundup of the key themes Vogels introduced, with a sprinkling of how I think this applies to Platform engineering teams.
+This post is a roundup of the key themes Vogels introduced, with a sprinkling of how I think this applies to engineering teams (with an obvious bias towards Platform given my current responsibilities 😄).
 
-(On a lighter note, I found it amusing yet insightful to hear the CTO of a leading cloud provider emphasise the importance of controlling spend – but better spent with them than a competitor, I guess!)
+(On a lighter note, I found it amusing yet insightful to hear the CTO of a leading cloud provider emphasise the importance of controlling spend – but better spent with them than a competitor, I guess...)
 
 ## 3️⃣ Three pillars of frugality
 I like the way he grouped the key laws into three pillars of *Design, Measure*, and *Optimise*.
@@ -51,15 +51,15 @@ If you’re watching Vogels’ talk back, I really liked the example used about 
 - *Cost optimisation is incremental*
 - *Unchallenged success leads to assumptions*
 
-‘Cost optimisation is incremental’ is probably my favourite law of them all. Reaffirming that cost optimisation is never ‘done’ is an important message for teams internally. Set up your observability, put sensible thresholds and alerts in place, and keep deliberately chipping away at it, just as you would your technical debt. Sounds super obvious, right?! Are you doing it?
+‘Cost optimisation is incremental’ is probably my favourite law of them all. Reaffirming that cost optimisation is never ‘done’ is an important message for teams internally. Set up your observability, put sensible thresholds and alerts in place, and keep deliberately chipping away at it - just as you would your technical debt. Sounds super obvious, right...but are you doing it?!
 
 
 ## 🤾 Frugal architecture in practice
 Embracing the role of a frugal architect isn’t just about cutting costs. It’s more than that - it’s about every engineer taking responsibility for making sustainable, well considered decisions about how and when to build. 
 
-Broadly I felt validated that we’ve been approaching the problem of cost control and optimisation in the ‘right’ way so far. It provides a useful framework that I intend to apply in my environment that helps make the point that spending money sensibly is the responsibility of all engineers, not just the platform engineers.
+Broadly I felt validated that I'm approaching the problem of cost control and optimisation in the ‘right’ way so far. It provides a useful framework that we can apply in our environments to make the point that spending money sensibly is the responsibility of _all_ engineers.
 
-I’d love to hear from you about the various tools and approaches you’ve found effective. Please share your insights and let’s learn from each other – you can reach me via the channels below 🙏 
+I’d love to hear from you about the various tools and approaches you’ve found effective — feel free to share your insights with me via the channels below! 🙏 
 
 
 [X](https://twitter.com/lukebriscoe) -- [LinkedIn](https://www.linkedin.com/in/lbriscoe/) -- [email](mailto:luke@lukebriscoe.com) 
