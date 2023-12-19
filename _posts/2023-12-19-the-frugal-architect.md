@@ -65,4 +65,4 @@ I’d love to hear from you about the various tools and approaches you’ve foun
 [X](https://twitter.com/lukebriscoe) -- [LinkedIn](https://www.linkedin.com/in/lbriscoe/) -- [email](mailto:luke@lukebriscoe.com) 
 
 
-<center>All images in this post were generated using DALL-E via ChatGPT/</center>
+<center>All images in this post were generated using DALL-E</center>
