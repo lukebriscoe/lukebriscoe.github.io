@@ -2,7 +2,7 @@
 layout: page
 title: "💷 The Frugal Architect"
 subtitle: <br> Reflections on Werner Vogels keynote session at AWS re:Invent
-date: 2022-12-19 14:00:00 +0000
+date: 2023-12-19 14:00:00 +0000
 ---
 <p align="center"> 
   <img width="600" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/DALL%C2%B7E%202023-12-19%2013.31.05%20-%20A%20digital%20illustration%20for%20a%20blog%20article%20about%20frugal%20architecture%20in%20cloud%20computing.%20The%20scene%20is%20a%20modern,%20sleek%20office%20environment%20with%20large%20pan.png?raw=true">
