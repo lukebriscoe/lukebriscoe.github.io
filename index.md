@@ -13,7 +13,7 @@ sitemap:
 I love building and operating resilient distributed systems. My experience is mostly in reliability engineering, developer experience, FinOps, incident management, and helping people and companies scale.
 <br>
 <br>
-🏦 I’m currently an Engineering Director at <a href="https://monzo.com/">Monzo Bank</a> leading Platform engineering. 
+🏦 I’m currently an Engineering Director at <a href="https://monzo.com/">Monzo Bank</a>, leading Platform engineering. 
 <br>
 <br>
 I joined Monzo in early 2019 where I’m responsible for building a world-class technology and data platform to make money work for everyone. 
