@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: My ramblings about technology, leadership, and work life in general 
+subtitle: My ramblings about technology and leadership
 ---
 
 <div>
