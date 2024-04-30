@@ -10,7 +10,7 @@ sitemap:
 
 <div id="about-me"> 
 <br>
-I love building and operating resilient distributed systems. I’m always open to talking about reliability engineering, developer experience, FinOps, incident management, and company hypergrowth 🏎
+I love building and operating resilient distributed systems. I’m always open to talking about reliability engineering, developer experience, FinOps, incident management, and company hypergrowth
 <br>
 <br>
 🏦 I’m currently an Engineering Director at <a href="https://monzo.com/">Monzo Bank</a> leading Platform engineering. 
@@ -23,4 +23,5 @@ Before Monzo I worked in various engineering and technology roles with <a href="
 <br>
 <br>
 👋 If you think my skills and experience could be useful for the projects you’re working on, let's connect! You can reach me via the contact channels at the top of the page! ↗️
+
 
