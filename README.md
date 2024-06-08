@@ -1,5 +1,3 @@
-# README
-A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability.
+A simple, minimal Jekyll theme for my personal web page and blog.
 
-☕ Made using the Pudhina theme by Knhash 🛠️
-https://github.com/knhash/Pudhina/
+☕ Made using the Klise theme from https://github.com/piharpi/jekyll-klise
