@@ -22,6 +22,6 @@ The idea is simple. Optimise for actions that are going to help you in the long-
 
 In the long-term, it’s the things in the convex payoffs bracket that help you stretch, grow, and perform better. It’s a false economy to optimise only for the things that you think really matter today — for example, your performance review rating, getting a bonus, or getting a pay rise. Sure, those things matter and might be incredibly important depending on your circumstances. But in the grand scheme of your career, they offer only marginal gains. If you’re interested in long-term growth and success, you need to have an eye on the convex payoffs.
 
-I’m writing this short post knowing that many engineers and engineering leaders will be heading into annual performance review season in the next few months, and this might just be the thing that you needed to read if you’re frustrated with the outcome, or you’re delighted with it and wondering where to focus next. 
+I’m writing this short post knowing that many engineers and engineering leaders will be heading into annual performance reviews in the next few months. This might just be the thing that you needed to read regardless of if you’re frustrated with the outcome, or you’re delighted and wondering where to focus next. 
 
 As you reflect on your performance and career growth, ask yourself: are you focusing on the things that will compound over time? If not, what’s one small shift you can make today?
