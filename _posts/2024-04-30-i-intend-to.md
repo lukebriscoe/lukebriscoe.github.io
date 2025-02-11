@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "🙋 The simple power of 'I intend to...'"
+title: "🙋 I intend to..."
 subtitle: <br> Three little words, so much meaning
 date: 2024-04-30 21:00:00 +0100
 ---
