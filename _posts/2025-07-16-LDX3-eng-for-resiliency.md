@@ -10,11 +10,11 @@ date: 2025-07-16 19:00:00 +0100
 
 I was lucky enough to be invited to [run a workshop on the Director+ track this year at LDX3 (LeadDev) in London](https://leaddev.com/leaddev-london/agenda/).
 
-My personal highlight from the workshop was how engaged everyone was — it was great to hear everyone’s stories and experiences, and it was great to see everyone’s commitment to learning and sharing. If you’re reading this and you were there — thank you!
-
 [The slides I used in the workshop are available on Github](https://github.com/lukebriscoe/ldx3-2025/blob/main/LDX3-LB-2025.pdf).
 
-I had a great time running the session, and I've had some great follow-up conversations (and some lovely feedback!) since. If you’d like me to run a similar workshop to explore some of these concepts with your teams, please get in touch through one of the links on my [about page](https://lukebriscoe.com/about/)!
+My personal highlight was how engaged everyone was — it was enlightening to hear everyone’s stories and experiences, and it was so good to see everyone’s commitment to learning and sharing. If you’re reading this and you were there — thank you!
+
+I had a great time running the session, and I've had lots of follow-up conversations (and some lovely feedback!) since. If you’d like me to run a similar workshop to explore some of these concepts with your teams, please get in touch through one of the links on my [about page](https://lukebriscoe.com/about/)!
 
 -----
 In the workshop I aim to deliver two key outcomes:
