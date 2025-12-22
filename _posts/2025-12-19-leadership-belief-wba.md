@@ -4,13 +4,13 @@ title: "🧘 Leadership, belief and…West Bromwich Albion"
 subtitle: <br> A few reflections on leadership, football, and building a team that believes…
 date: 2025-12-22 09:30:00 +0000
 ---
-Monday to Friday, I work in software engineering. The weekend is for football. As a fan, I’m irrational. But as a leader, I can’t afford to be.
+Monday to Friday, I work in software engineering. The weekend though is usually all about football. As a fan, I’m irrational — but as a leader, I can’t afford to be.
 
 My team is West Bromwich Albion and we play in the second tier of the English professional football pyramid, aka The Championship. We’ve had better times, but in recent years we’ve slipped into mediocrity and have struggled to mount a real attempt to make it back to the riches of the Premier League. Surprisingly, the emotional rollercoaster of watching football at The Hawthorns (our home stadium) has taught me more about my day job than I expected.
 
 When results aren’t going our way on the pitch, everyone has an opinion. The formation is wrong. That player doesn't care. The manager is clueless. When I’m watching some of the most mediocre football of my life, I won’t lie, my reaction is exactly the same. We judge the team on outcomes and we want to see passion, commitment, and wins. And when we don’t get those things, well, we start to point fingers at individuals. And more often than not, those fingers point at the manager.
 
-A few weeks ago we were playing a home game and I took the photo below after we’d just drew 0-0 to a team who are rock bottom of the league (sorry Sheffield Wednesday fans). I was a bit late with my snap but the photo shows Karlan Grant, one of our players, just after he finished having an argument with a fan in the stands. I don’t know what was said, but what I do know is that a) he’s frustrated enough to bite back to criticism from the stands and b) there were 3 or 4 of his teammates running towards him to drag him away. For me there are some positives to take from that — he cares enough to bite, and his teammates care enough to at least steer him away from getting involved further.
+A few weeks ago we were playing a home game and I took the photo below after we’d just drew 0-0 to a team who are rock bottom of the league (sorry Sheffield Wednesday fans). I was a bit late with my snap but the photo shows Karlan Grant, one of our players, just after he finished having an argument with a fan in the stands. I don’t know what was said, but what I do know is that a) he’s frustrated enough to bite back to criticism from the stands and b) there were 3 or 4 of his teammates running towards him to drag him away. For me there are some positives to take from that — he cares egnough to bite, and his teammates care enough to at least steer him away from getting involved further.
 
 <p align="center"> 
   <img width="400" height="220" src="https://raw.githubusercontent.com/lukebriscoe/lukebriscoe.github.io/9a60400679dcf86b1c25661017c24640440cb34a/assets/img/Screenshot%202025-12-19%20at%2010.25.54.png">
