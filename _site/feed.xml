@@ -1,14 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2025-07-16T19:51:25+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🦾 LDX3 Director+ workshop: Engineering for Resiliency</title><link href="http://localhost:4000/LDX3-eng-for-resiliency/" rel="alternate" type="text/html" title="🦾 LDX3 Director+ workshop: Engineering for Resiliency" /><published>2025-07-16T18:00:00+00:00</published><updated>2025-07-16T18:00:00+00:00</updated><id>http://localhost:4000/LDX3-eng-for-resiliency</id><content type="html" xml:base="http://localhost:4000/LDX3-eng-for-resiliency/"><![CDATA[<p align="center"> 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2025-12-22T09:31:41+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🧘 Leadership, belief and…West Bromwich Albion</title><link href="http://localhost:4000/leadership-belief-wba/" rel="alternate" type="text/html" title="🧘 Leadership, belief and…West Bromwich Albion" /><published>2025-12-19T10:00:00+00:00</published><updated>2025-12-19T10:00:00+00:00</updated><id>http://localhost:4000/leadership-belief-wba</id><content type="html" xml:base="http://localhost:4000/leadership-belief-wba/"><![CDATA[<p>Monday to Friday, I work in software engineering. The weekend is for football. As a fan, I’m irrational. But as a leader, I can’t afford to be.</p>
+
+<p>My team is West Bromwich Albion and we play in the second tier of the English professional football pyramid, aka The Championship. We’ve had better times, but in recent years we’ve slipped into mediocrity and have struggled to mount a real attempt to make it back to the riches of the Premier League. Surprisingly, the emotional rollercoaster of watching football at The Hawthorns (our home stadium) has taught me more about my day job than I expected.</p>
+
+<p>When results aren’t going our way on the pitch, everyone has an opinion. The formation is wrong. That player doesn’t care. The manager is clueless. When I’m watching some of the most mediocre football of my life, I won’t lie, my reaction is exactly the same. We judge the team on outcomes and we want to see passion, commitment, and wins. And when we don’t get those things, well, we start to point fingers at individuals. And more often than not, those fingers point at the manager.</p>
+
+<p>A few weeks ago we were playing a home game and I took the photo below after we’d just drew 0-0 to a team who are rock bottom of the league (sorry Sheffield Wednesday fans). I was a bit late with my snap but the photo shows Karlan Grant, one of our players, just after he finished having an argument with a fan in the stands. I don’t know what was said, but what I do know is that a) he’s frustrated enough to bite back to criticism from the stands and b) there were 3 or 4 of his teammates running towards him to drag him away. For me there are some positives to take from that — he cares enough to bite, and his teammates care enough to at least steer him away from getting involved further.</p>
+
+<p align="center"> 
+  <img width="400" height="220" src="https://raw.githubusercontent.com/lukebriscoe/lukebriscoe.github.io/9a60400679dcf86b1c25661017c24640440cb34a/assets/img/Screenshot%202025-12-19%20at%2010.25.54.png" />
+</p>
+
+<p>In my day job I’ve learned that building a team, especially one operating at high velocity with high stakes, is rarely as simple as assembling a team of competent professionals and leaving them to it. I’ve also learnt that it’s wise to deeply understand and then be hard on the problem, rather than immediately on the individual. The same goes for the manager.</p>
+
+<p>More often than not, the issue isn’t competence (though yes, sometimes it is). The problems generally lie elsewhere — and my main message in this post is that in football, just like in software engineering, not everything is as it may seem…</p>
+
+<h2 id="-the-invisible-game">🫥 The invisible game</h2>
+
+<p>From the stands, we don’t see the training ground. We don’t see the personal issues a player is carrying, the tactical instruction they’ve been given, or the quiet lack of confidence rippling through the dressing room after a few bad results (we’ve just hit 8 consecutive away defeats so I bet the staff coach journey home this weekend was fun).</p>
+
+<p>It is exactly the same in engineering. However — when an engineering squad misses a deadline or a platform migration stalls, the first thing I ask is “what are the factors contributing to this?” before making knee-jerk reaction changes. In football however, we jumpimmediately to ask “why aren’t they working harder?” or “sack the manager!” after a few bad results (hi <a href="https://en.wikipedia.org/wiki/Ryan_Mason">Ryan Mason 👋</a>).</p>
+
+<p>This is where the invisible side of the game comes in:</p>
+<ul>
+  <li>Fear or flow? Is the team paralysed by fear of breaking production, or are they safe to take calculated risks?</li>
+  <li>Do they actually believe in what they’re doing? (e.g. do they see the impact their efforts will lead to and do they influence/have autonomy over the methods to take them there?)</li>
+  <li>Do they have a manager that inspires them to do better (e.g. are they learning and growing as a result of their leadership?)</li>
+</ul>
+
+<h2 id="-belief-is-a-multiplier">🧘 Belief is a multiplier</h2>
+
+<p>West Brom can’t buy success by buying the best players and the best manager. We don’t have the money and we’re not a particularly exciting proposition for the top players in the game. In order to succeed we have to be greater than the sum of our parts — we have to have belief we can be better. Now I have no idea whether this team have belief or not as I’m not there behind the scenes, but in my job, I know that belief is a multiplier regardless of the company — and if we want to succeed, we’ve got a better chance with belief than without it.</p>
+
+<p>When a team believes in the mission, they understand the outcomes they’re working towards, and they trust their manager has their back, they play with their heads up. They take calculated risks. They cover for each other’s mistakes rather than pointing fingers. They share ownership over problems.</p>
+
+<p>When that belief is gone (e.g. when the dressing room is lost),  it doesn’t matter how talented your senior engineers or your star players are. You get slow decision-making, a lack of cohesion, and a culture of “that’s not my job.” You get less optimal outcomes, and that’s then when scruity turns to individuals. Trust me — I watched West Brom when they were managed by Tony Pulis and it was the worst football I’ve seen in my life, but I could suffer it as the outcomes (for most of his tenure) were good.</p>
+
+<p>This is exactly the time we should be looking to deeply understand the contributors to the problem <em>before</em> we call the players out.</p>
+
+<h2 id="-the-final-whistle">😗 The final whistle</h2>
+
+<p>Engineering, like football, is a results business. We are here to ship, to scale, and to win. But you don’t get results by staring at the scoreboard. You get them by obsessing over culture in the dressing room or the office and the human systems that lead us to success.</p>
+
+<p>So here’s my advice. By all means, scream at the team and the manager on Saturday afternoon — but when the score looks bad, don’t just look at the players. Look at the belief, the culture — and when you’re back to work on Monday morning, remember you’re the one capable of changing the game.</p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[Monday to Friday, I work in software engineering. The weekend is for football. As a fan, I’m irrational. But as a leader, I can’t afford to be.]]></summary></entry><entry><title type="html">💷 FinOps X: cloud cost chaos to collaboration</title><link href="http://localhost:4000/finopsx-2025/" rel="alternate" type="text/html" title="💷 FinOps X: cloud cost chaos to collaboration" /><published>2025-07-27T11:00:00+00:00</published><updated>2025-07-27T11:00:00+00:00</updated><id>http://localhost:4000/finopsx-2025</id><content type="html" xml:base="http://localhost:4000/finopsx-2025/"><![CDATA[<p align="center"> 
+  <img width="300" height="220" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/1749389839437.jpeg?raw=true" />
+</p>
+
+<p>Last month I went over to San Diego to speak at the <a href="https://x.finops.org/">FinOps X conference</a>. The conference is ~2000 people from all kinds of backgrounds — engineers, accountants, analysts and other FinOps professionals. I’ve been aware of the foundation and the work they do for the last couple of years, so I was thrilled when our talk proposal was accepted. We shared our cloud cost journey at Monzo to-date, and dug into how we’re solving some of the unique problems a microservices architecture can present when it comes to accurately forecasting and attributing cloud spend.</p>
+
+<p>I gave the talk with my colleague Selda, who leads our Cloud FinOps squad at Monzo. One of the key insights we shared was how we’ve got into a much better place with our cloud costs as a result of collaborating across different disciplines — namely by combining backend engineers with data scientists, analytics engineers and accountants. As a result, on forecasting cloud spend alone we’ve gone from a ~15% error rate in our forecasts to consistently predicting spend to over 95% accuracy. That’s improving every month, and we’re at around 97.5% at the time I’m writing this post (with our goal set to consistently be above 99%).</p>
+
+<p>🎥 <a href="https://youtu.be/0U-J7FdzvLk?si=TvQiPc2U1d9hud9H">The talk was recorded so if you want to learn more about our journey to-date, and how building a load attribution system and getting a solid handle on our cost drivers has been a key unlock on our journey, you can watch it back here.</a></p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">🦾 LDX3 Director+ workshop: Engineering for Resiliency</title><link href="http://localhost:4000/LDX3-eng-for-resiliency/" rel="alternate" type="text/html" title="🦾 LDX3 Director+ workshop: Engineering for Resiliency" /><published>2025-07-16T18:00:00+00:00</published><updated>2025-07-16T18:00:00+00:00</updated><id>http://localhost:4000/LDX3-eng-for-resiliency</id><content type="html" xml:base="http://localhost:4000/LDX3-eng-for-resiliency/"><![CDATA[<p align="center"> 
   <img width="300" height="220" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/PHOTO-2025-06-23-20-06-16.jpg?raw=true" />
 </p>
 
 <p>I was lucky enough to be invited to <a href="https://leaddev.com/leaddev-london/agenda/">run a workshop on the Director+ track this year at LDX3 (LeadDev) in London</a>.</p>
 
-<p>My personal highlight from the workshop was how engaged everyone was — it was great to hear everyone’s stories and experiences, and it was great to see everyone’s commitment to learning and sharing. If you’re reading this and you were there — thank you!</p>
-
 <p><a href="https://github.com/lukebriscoe/ldx3-2025/blob/main/LDX3-LB-2025.pdf">The slides I used in the workshop are available on Github</a>.</p>
 
-<p>I had a great time running the session, and I’ve had some great follow-up conversations (and some lovely feedback!) since. If you’d like me to run a similar workshop to explore some of these concepts with your teams, please get in touch through one of the links on my <a href="https://lukebriscoe.com/about/">about page</a>!</p>
+<p>My personal highlight was how engaged everyone was — it was enlightening to hear everyone’s stories and experiences, and it was so good to see everyone’s commitment to learning and sharing. If you’re reading this and you were there — thank you!</p>
+
+<p>I had a great time running the session, and I’ve had lots of follow-up conversations (and some lovely feedback!) since. If you’d like me to run a similar workshop to explore some of these concepts with your teams, please get in touch through one of the links on my <a href="https://lukebriscoe.com/about/">about page</a>!</p>
 
 <hr />
 <p>In the workshop I aim to deliver two key outcomes:</p>
@@ -451,123 +502,4 @@ I perform at my best if I’m working sensible hours, and I’ve been able to ge
 
 <p><br /> Give me a shout if you’d like to talk about any of this or anything resonates with you - I’m on a constant journey of learning 👨‍🏫</p>
 
-<center>All images in this post are from https://undraw.co/</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[I’m finally writing again! I was surprised to see my last post was back in June last year, and after two weeks off from work, I feel like I’ve got the headspace to write again. Prioritisation has been heavy on my mind over the last ~3-4 months as the scope of my role has changed, so this feels like a decent topic to get stuck into.]]></summary></entry><entry><title type="html">⚽️ Gareth Southgate: Engineering Manager</title><link href="http://localhost:4000/gareth-southgate-eng-mgr/" rel="alternate" type="text/html" title="⚽️ Gareth Southgate: Engineering Manager" /><published>2021-06-22T06:00:00+00:00</published><updated>2021-06-22T06:00:00+00:00</updated><id>http://localhost:4000/gareth-southgate-eng-mgr</id><content type="html" xml:base="http://localhost:4000/gareth-southgate-eng-mgr/"><![CDATA[<p>I love football. I watch it all the time, I used to play, and I’m fascinated by what goes on behind the scenes at professional football clubs. The dynamics that exist, what players are really like, how they organise themselves and train ahead of a game - everything. So in the build up to Euro 202<del>0</del>1, I’ve loved hearing more from Gareth Southgate, manager of the England men’s football team 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️</p>
-
-<p>It’s been great hearing about how he’s picked his squad, how they’ve prepped heading into a big tournament, and in particular how he creates an environment that means his team can perform at their very best. As I was listening, I’ve found there are loads of comparisons we can draw to managing high performing software engineering teams.</p>
-
-<p>So what can software engineering leaders learn from Gareth Southgate? And more widely - how different is managing a winning football team from managing a high performing engineering organisation?</p>
-
-<p>Even if football isn’t your thing, hopefully some of these insights are useful 💡</p>
-
-<p>ℹ️ My inspiration for this post mainly came from <a href="https://www.thehighperformancepodcast.com/episodes/gareth-southgate">Southgate’s interview on the High Performance Podcast.</a> It’s definitely worth a watch/listen even if you’re not a football fan!</p>
-
-<p align="center"> 
-  <img width="400" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/undraw_game_day_ucx9%20(1).png?raw=true" />
-</p>
-
-<h2 id="--there-are-lots-of-similarities"><br /> 👯 There are lots of similarities</h2>
-
-<p>There’s lots we can learn from Southgate and the England team setup. I don’t know why I was so surprised (maybe it’s because you never really hear about what happens behind the scenes in elite football teams), but almost everything he was talking about on the podcast resonated with me and the teams I work with every day.</p>
-
-<p>I thought about going down the path of describing how:</p>
-
-<p>🏢  St.George’s Park (the England team’s footballing centre) is like our company office/company culture <br />
-🏋️  The gym and training pitches are like our staging/pre-production environments <br />
-🏟  Their matchday is like our production environment <br /></p>
-
-<p>Everthing the team is doing is leading up to making sure their plan is executed perfectly on matchday – similar to how we work together to write, test and ship high-quality, impactful code everyday.</p>
-
-<p>But - I actually found the more interesting and relevant lessons and similarities to be around the environment that Southgate and his staff create to get the best out of their team and the individuals on it. Let’s dig into a couple of those…</p>
-
-<h2 id="-make-the-players-want-to-come-back"><br />🏟 Make the players want to come back</h2>
-
-<p>One of the first things Gareth points to is how he tries to create an environment that the players always want to come back to. It’s got to be fun, safe, comfortable - and over time, familiar. The players have got to be able to build strong relationships and trust with each other, and the environment has to support maintaining those relationships. There are a lot of similarities here to how we make our engineering environments positive to work in - including making it safe to try new things out, and ok to make mistakes in the process.</p>
-
-<p>He also mentions how the England players in teams of the past would play with fear; not wanting to be the scapegoat in a team that has dropped out of a major tournament early, or failed to even qualify. He reflected on his own experience of the criticism he received for missing <em>that</em> penalty at Euro 96, and how Beckham and Rooney took the blame following major tournament failure in more recent years.</p>
-
-<p>There are some real similarities here to the environment we strive to create for our engineering teams; the focus should be on building a culture that allows everyone to do their best work, able to work without fear, and able to take calculated risks and not worry about punishment or blame.</p>
-
-<h2 id="-bonding-and-building-team-spirit"><br />🤝 Bonding and building team spirit</h2>
-
-<p>Lots of the media attention over the last few years with the England men’s team has been on the team spirit and togetherness that’s been built - and how that is starting to translate into success (reaching the semi-finals of the World Cup in 2018, for example). The players seem to enjoy being around each other – so how can we help our engineering teams feel the same way around each other and their leaders?</p>
-
-<p>We encourage team socials and activities as a way of building relationships and trust, but in essence it doesn’t matter what our teams do together - there just has to be something that helps the bonding happen. Southgate talks about how a lot of that occurs with the England squad during mealtimes - they all sit and eat together regularly and take time to learn about each other’s lives inside and outside of football.</p>
-
-<p>My favourite example was one that Damien Hughes from the podcast gave about a time he was working with a team in Argentina. Their coaches were horrified to find that their players were all sitting together one evening watching Love Island on TV in their hotel - but his point was it really doesn’t matter what they’re doing together - the important thing is that they’re <em>together</em>.</p>
-
-<h2 id="-technical-ability-isnt-everything"><br />🧑‍💻 Technical ability isn’t everything</h2>
-
-<p>This is the one that really made me sit up and listen. Southgate is pretty open that football players get into the squad based on their footballing ability and potential - but it’s their behaviour and attitude in combination with their talent helps keep them there.</p>
-
-<p>In engineering we talk about the importance of technical impact and behaviours a lot - both of these contribute to high performance. It’s why most progression frameworks will reference both soft and hard skills - maybe it’s an obvious example to strike, but it’s one that I’d not given much thought to before with football. Technical ability is only one of many factors in high performance, apparently regardless of industry.<br /></p>
-
-<p align="center"> 
-  <img width="400" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/undraw_goal_0v5v%20(1).png?raw=true" />
-</p>
-
-<h2 id="-learning-from-failure">🧑‍🏫 Learning from failure</h2>
-
-<p>Ah, my favourite subject. Southgate talks about the importance he places on his players and on himself to learn from their failures. The team runs retrospectives after each match, much like we do after incidents or at the end of a project, and deep-dive into the details and understand areas that the team can improve in future.</p>
-
-<p>He mentions how you have to go through difficult periods to learn and grow - sometimes you’ve got to experience failure such as losing a big game to be able to come out of it feeling like a better person and player. I think there are lots of similarities we can strike in engineering here - particularly around incidents.</p>
-
-<h2 id="leadership-from-within"><br />🎖Leadership from within</h2>
-
-<p>Southgate’s comment about his exemplary captain and vice-captain in Harry Kane and Jordan Henderson resonated so strongly with me - those are his key senior players who he expects to set a high bar in the way that they deliver, and how they behave. There are a lot of comparisons I think we can make here to how important it is that senior engineers play leadership roles in high-performing engineering teams.</p>
-
-<p>He talks about the varied role his coaching/management team also need to play in success. As well as coaching the players to improve, they’ve also got to help nurture leaders from within and help their current on-the-field leaders understand their role in the success of the team. He also mentions how important it is to create opportunities for players to develop as leaders, and build their experience over time – who’s on that journey vs. who’s there now? What highs or lows have they dealt with, and what else can they learn?</p>
-
-<p>This feels strikingly similar to how we create progression opportunities for our engineers and managers to progress, and how important it is to build a strong partnership between managers and senior engineers as a joint leadership group.<br /></p>
-
-<h2 id="-always-remember-why-were-here"><br />🔬 Always remember why we’re here</h2>
-
-<p>Mercedes apparently has an F1 car in the middle of their office as a constant reminder of what they do everyday. St.George’s Park has been designed in a way that football and winning with the national team is front and centre of everything. How different is this from the way that we typically set up engineering organisations for success?</p>
-
-<p>Similarly, we put our customers at the heart of everything we do. We serve up reminders for our teams in the form of mission, purpose and values of why we’re here and what we’re working towards. We release small regular changes that deliver value to customers incrementally, set customer-focused objectives, and create offices and workspaces that are centred around the customers we serve every day.</p>
-
-<p>Maybe being the England football manager isn’t so different to what engineering leaders do everyday?</p>
-
-<h2 id="-in-summary"><br />🏆 In summary</h2>
-
-<p>As I’ve been writing this I’m drawing the conclusion that it’s probably all common sense; of course you build football teams in this way if you want them to be the best. At the end of the day, a team is a team and the physical and psychological factors that impact humans remain the same, regardless of your profession.</p>
-
-<p>It’s certainly not what I was expecting to hear from Gareth Southgate though - maybe the stereotype the media projects about footballers in general meant that I didn’t think any of this stuff really happened - that it was just tactics, selection and then all down to the raw talent and technical ability of the players when it comes to matchday.</p>
-
-<p>I certainly feel inspired by what Southgate spoke about and I’ve found it equally inspiring to draw similarities to how he’s brought some of these basic leadership principles to life in a professional international football team.</p>
-
-<p>I love his never ending quest for perfection - do the basics brilliantly, dive in to the details that help you win from there, and do it all consistently.</p>
-
-<p>A team is a team - regardless of the people in it. Once Gareth is done leading England to success (🤞) who knows what’s next…? 🏆⚽️🏴󠁧󠁢󠁥󠁮󠁧󠁿</p>
-
-<p align="center"> 
-  <img width="300" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/undraw_fans_gr54%20(1).png?raw=true" />
-</p>
-<center>All images in this post are from https://undraw.co/</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[I love football. I watch it all the time, I used to play, and I’m fascinated by what goes on behind the scenes at professional football clubs. The dynamics that exist, what players are really like, how they organise themselves and train ahead of a game - everything. So in the build up to Euro 20201, I’ve loved hearing more from Gareth Southgate, manager of the England men’s football team 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽️]]></summary></entry><entry><title type="html">🔋 The Trust Battery</title><link href="http://localhost:4000/trust-battery/" rel="alternate" type="text/html" title="🔋 The Trust Battery" /><published>2021-02-19T19:00:00+00:00</published><updated>2021-02-19T19:00:00+00:00</updated><id>http://localhost:4000/trust-battery</id><content type="html" xml:base="http://localhost:4000/trust-battery/"><![CDATA[<p>I came across the ‘trust battery’ metaphor recently when reading <a href="https://basecamp.com/books/calm">‘It Doesn’t Have To Be Crazy At Work’</a> by Basecamp co-founders Jason Fried and David Heinemeier Hansson. The metaphor was apparently coined by Tobi Lütke, founder and CEO at Shopify. While I don’t agree with everything I’ve seen Tobi speak about in the past, I do really like this as a concept. As it’s been on my mind a bit recently, I thought I’d put a quick post together about it.</p>
-
-<h2 id="-the-trust-battery">🔋 The trust battery</h2>
-
-<p>The basic idea is that your trust battery is pre-charged at 50% when you’re first hired or start working with someone for the first time. Every interaction you have with your colleagues from that point on then either charges, discharges, or maintains the battery - and as a result, affects how much you enjoy working with them and trust them to do a good job.</p>
-
-<p>The things that influence your trust battery charge vary wildly - whether the other person has done what they said they’ll do, how well you get on with that person, whether your opinions of that person are biased by others you have a high-trust relationship with, and lots more.</p>
-
-<h2 id="-what-does-that-mean">🤔 What does that mean?</h2>
-
-<p>Low charged trust batteries usually mean everything is more difficult - decisions can take longer to make, it takes longer to get things done, and performance in general drops. Low trust leads to poorer quality work, fatigue, and in some cases, conflict. In contrast, trust batteries that are well charged usually help teams and individuals deliver higher quality work more quickly and more collaboratively. Performance improves, people are generally happier and they’re left feeling more energised when working with others who have a mutually well charged trust battery.</p>
-
-<h2 id="-changes-during-the-pandemic">🌀 Changes during the pandemic</h2>
-
-<p>Sticking with the battery metaphor - if you charge your phone battery little and often, it’s going to remain well charged. Leave it for a while, and it starts to drain. Eventually, it completely runs out. Our trust batteries are exactly the same.</p>
-
-<p>I think the pandemic has changed the way that many of us keep our trust batteries healthily charged with others. Those walks away from the office to grab a coffee with a colleague, small talk waiting for a meeting room, or planning to have something to eat after work have either disappeared or been replaced by a poor imitation of what existed before.</p>
-
-<p>I’m certainly missing the opportunity to have those small-but-regular interactions that go towards building and maintaining trust with my colleagues. I only came across the concept of the trust battery a couple of weeks ago, but just being aware of it has started to change some of my behaviours - and I feel much better for it.</p>
-
-<h2 id="️-recharging-your-batteries">⚡️ Recharging your batteries</h2>
-
-<p>I’ve reconnected with some people I’ve had high trust at work with in the past but maybe don’t get the opportunity to work or talk to as often anymore. The batteries are slowly being charged up again. It’s only taken a quick chat on Slack or a 10-15 minute virtual coffee, but it’s been great to reconnect and maintain those relationships we’ve built over time - knowing it’ll be important for us in the future when we work together again.</p>
-
-<p>It’s also helped me look at the relationships I have with people that I work with regularly now and that I speak to every week - are our trust batteries as highly charged as we’d like them to be? What are we missing that could help charge them up or maintain them? Do we know and trust each other as much as we think we do? How can we work together to improve or maintain things?</p>
-
-<p>Have a think about the people you work with - are your trust batteries depleted? What can you do in the next few weeks to charge them up?</p>
-
-<p>Hopefully the trust battery metaphor will help you as much as it has helped me 🔋🤞</p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[I came across the ‘trust battery’ metaphor recently when reading ‘It Doesn’t Have To Be Crazy At Work’ by Basecamp co-founders Jason Fried and David Heinemeier Hansson. The metaphor was apparently coined by Tobi Lütke, founder and CEO at Shopify. While I don’t agree with everything I’ve seen Tobi speak about in the past, I do really like this as a concept. As it’s been on my mind a bit recently, I thought I’d put a quick post together about it.]]></summary></entry></feed>
+<center>All images in this post are from https://undraw.co/</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[I’m finally writing again! I was surprised to see my last post was back in June last year, and after two weeks off from work, I feel like I’ve got the headspace to write again. Prioritisation has been heavy on my mind over the last ~3-4 months as the scope of my role has changed, so this feels like a decent topic to get stuck into.]]></summary></entry></feed>
