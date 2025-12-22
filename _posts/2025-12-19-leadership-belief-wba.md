@@ -2,7 +2,7 @@
 layout: page
 title: "🧘 Leadership, belief and…West Bromwich Albion"
 subtitle: <br> A few reflections on leadership, football, and building a team that believes…
-date: 2025-12-19 10:00:00 +0000
+date: 2025-12-22 09:30:00 +0000
 ---
 Monday to Friday, I work in software engineering. The weekend is for football. As a fan, I’m irrational. But as a leader, I can’t afford to be.
 
