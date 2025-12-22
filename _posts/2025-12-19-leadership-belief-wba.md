@@ -44,6 +44,6 @@ This is exactly the time we should be looking to deeply understand the contribut
 
 ## 😗 The final whistle
 
-Engineering, like football, is a results business. We are here to ship, to scale, and to win. But you don't get results by staring at the scoreboard. You get them by obsessing over culture in the dressing room or the office and the human systems that lead us to success.
+Engineering, like football, is a results business. We are here to ship, to scale, and to win. But you don't get results by luck. You get them by obsessing over culture in the dressing room or the office and the human systems that lead us to success.
 
-So here's my advice. By all means, scream at the team and the manager on Saturday afternoon — but when the score looks bad, don’t just look at the players. Look at the belief, the culture — and when you’re back to work on Monday morning, remember you’re the one capable of changing the game.
+So here's my advice. By all means, scream at the team and the manager on Saturday afternoon — but when the score looks bad, don’t just look at the players. Look at the belief, the culture — and when you’re back to work in the new year, remember you’re the one capable of changing the game 🤝
