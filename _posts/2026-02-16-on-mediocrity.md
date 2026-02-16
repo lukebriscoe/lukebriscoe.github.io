@@ -1,0 +1,25 @@
+---
+layout: page
+title: "🔊 On mediocrity (Amp it up)"
+subtitle: <br> Some thoughts on mediocrity prompted by recently re-reading "Amp it up"
+date: 2026-02-15 12:30:00 +0000
+---
+<p align="center"> 
+  <img width="400" height="300" src="https://raw.githubusercontent.com/lukebriscoe/lukebriscoe.github.io/e3950509bfd11656541530cb9c09901b2816710c/assets/img/ChatGPT%20Image%20Feb%2016%2C%202026%2C%2012_36_51%20PM.png">
+</p>
+Recently I’ve been thinking a lot about mediocrity. 
+
+To be fair that’s mainly come from the standard of football I’ve been watching this season ([see my post from late last year](https://lukebriscoe.com/leadership-belief-wba/)) but it’s also been on my mind when it comes to leading high performing engineering teams. 
+
+One thing I learned early in my career as a result of getting burned from getting it so wrong is to constantly gauge the bar of your middle performers. 
+
+I believe that most orgs know who their high and low performers are. But, they know less about their people in the middle — the people who do a good enough job, most of the time. It is also my belief that “the middle” is where your performance bar is set, and where it is held — and if you’re not regularly gauging how that group is doing and raising your standards, then you’re at risk of building a mediocre organisation. 
+
+And yes, that’s fine in some places. But not in high growth or high ambition places. There’s a place for good enough — but it’s generally not in ambitious, high performing orgs 🥸
+
+## 🆙 Amp it up
+I’m writing this post because this has been on my mind recently and last week on a flight to the US I re-read “Amp It Up” by Frank Slootman. Sure enough, I enjoyed reading it again and I re-discovered one of my favourite references on mediocrity. From my notes:
+
+> “Mediocrity — if you want a great company, you can’t give out free passes for mediocrity… Good enough is never good enough.”
+
+I think that alone is worth reading the book for. If you haven’t read it and you’re a leader of teams, regardless of the industry you work in — you should. Raise the bar. Sharpen your focus. And make sure you’re building for great, not just good enough.
