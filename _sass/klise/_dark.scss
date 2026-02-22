@@ -244,4 +244,24 @@ body[data-theme="dark"] {
       }
     }
   }
+
+  .snake-grid {
+    border-color: $dark-light;
+  }
+
+  .snake-cell {
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .snake-cell-snake {
+    background-color: $dark-white;
+  }
+
+  .snake-cell-food {
+    background-color: $dark-text-link-blue;
+  }
+
+  .snake-btn {
+    border-color: $dark-light;
+  }
 }

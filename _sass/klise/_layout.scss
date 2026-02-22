@@ -378,3 +378,78 @@
     background-color: rgba(128, 128, 128, 0.1);
   }
 }
+
+.snake-game {
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.snake-meta {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.snake-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.snake-grid {
+  --snake-size: 16;
+  display: grid;
+  width: 100%;
+  border: 1px solid $light;
+  grid-template-columns: repeat(var(--snake-size), minmax(0, 1fr));
+  aspect-ratio: 1 / 1;
+}
+
+.snake-cell {
+  border: 1px solid rgba(128, 128, 128, 0.08);
+}
+
+.snake-cell-snake {
+  background-color: $black;
+}
+
+.snake-cell-food {
+  background-color: $text-link-blue;
+}
+
+.snake-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.snake-btn {
+  border: 1px solid $light;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+.snake-btn:hover {
+  cursor: pointer;
+}
+
+.snake-controls {
+  margin-top: 12px;
+  display: none;
+  gap: 8px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.snake-controls-row {
+  display: flex;
+  gap: 8px;
+}
+
+@include media-query($on-mobile) {
+  .snake-controls {
+    display: flex;
+  }
+}

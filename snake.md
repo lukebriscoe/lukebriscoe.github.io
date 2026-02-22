@@ -1,0 +1,47 @@
+---
+title: Snake
+permalink: /snake/
+layout: page
+excerpt:
+comments: false
+---
+
+<div class="snake-game" data-snake-game>
+  <p class="snake-meta">
+   <center>Built entirely with GPT-5.3 Codex.<br><br>
+    Use arrow keys or WASD to move.
+    <br>
+    Use Spacebar or press Pause to pause the game.
+    
+  </center>
+  </p>
+
+  <div class="snake-panel">
+    <span>Score: <strong data-snake-score>0</strong></span>
+    <span data-snake-status>Ready</span>
+  </div>
+
+  <div
+    class="snake-grid"
+    role="grid"
+    aria-label="Snake game board"
+    data-snake-grid
+  ></div>
+
+  <div class="snake-actions">
+    <button type="button" class="snake-btn" data-snake-pause>Pause</button>
+    <button type="button" class="snake-btn" data-snake-restart>Restart</button>
+  </div>
+
+  <div class="snake-controls" aria-label="Touch controls">
+    <button type="button" class="snake-btn" data-snake-dir="up">Up</button>
+    <div class="snake-controls-row">
+      <button type="button" class="snake-btn" data-snake-dir="left">Left</button>
+      <button type="button" class="snake-btn" data-snake-dir="down">Down</button>
+      <button type="button" class="snake-btn" data-snake-dir="right">Right</button>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/snake-logic.js" defer="defer"></script>
+<script src="/assets/js/snake-page.js" defer="defer"></script>

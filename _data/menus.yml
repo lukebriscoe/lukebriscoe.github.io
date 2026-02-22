@@ -10,6 +10,10 @@
   url: /about/
   external: false # set true if using external link, see below
 
+- title: snake
+  url: /snake/
+  external: false
+
 # Example:
 # - title: github
 #   url: https://
