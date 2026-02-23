@@ -44,5 +44,6 @@ One of the best things for me is that I’ve seen them start to spin up in other
 
 If you run something similar and have other ideas/suggestions on what you've found works, or you're thinking about doing these for the first time, I'd love to hear from you! Get in touch via the channels at the top ↗️
 
-_🙏 These are a team effort to organise and they wouldn't be successful without the input and buy-in from everyone across our teams — but a special thanks in particular to Harriet Jackson, Marcus Noble, Hollie Squires, Hugh Lunnon and Chris Kirk who have worked with me recently to organise successful connection days! 🏢 _
+--
+🙏 These are a team effort to organise and they wouldn't be successful without the input and buy-in from everyone across our teams — but a special thanks in particular to Harriet Jackson, Marcus Noble, Hollie Squires, Hugh Lunnon and Chris Kirk who have worked with me recently to organise successful connection days! 🏢
 
