@@ -29,3 +29,35 @@
       : area.classList.remove("blurry");
   });
 })();
+
+// Typewriter effect for headings
+const typewrite = (el, delay) => {
+  const text = el.textContent.trim();
+  el.textContent = '';
+
+  const cursor = document.createElement('span');
+  cursor.className = 'author-name-cursor';
+  cursor.textContent = '|';
+  el.appendChild(cursor);
+
+  const chars = Array.from(text);
+  let i = 0;
+  const type = () => {
+    if (i < chars.length) {
+      el.insertBefore(document.createTextNode(chars[i]), cursor);
+      i++;
+      const delay = chars[i - 1].codePointAt(0) > 0xFFFF ? 150 : 85;
+      setTimeout(type, delay);
+    } else {
+      setTimeout(() => cursor.style.animation = 'author-cursor-fade 0.6s ease forwards', 1800);
+    }
+  };
+
+  setTimeout(type, delay);
+};
+
+const authorName = document.querySelector('.author-name');
+if (authorName) typewrite(authorName, 400);
+
+const headerTitle = document.querySelector('.header-title');
+if (headerTitle) typewrite(headerTitle, 400);
