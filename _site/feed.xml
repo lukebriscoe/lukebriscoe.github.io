@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2026-03-30T20:11:16+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🛩️ Fly direct</title><link href="http://localhost:4000/fly-direct/" rel="alternate" type="text/html" title="🛩️ Fly direct" /><published>2026-03-29T08:30:00+00:00</published><updated>2026-03-29T08:30:00+00:00</updated><id>http://localhost:4000/fly-direct</id><content type="html" xml:base="http://localhost:4000/fly-direct/"><![CDATA[<p>“Fly direct”. That is to say, if you have a problem that cuts across teams, figure out who the best person or team is to help you address the problem, and go and speak to them directly. Don’t go through your tech lead or send things up a chain for management to pass back down somewhere else. Go straight to where you think the answer might be, and ask your question (regardless of what job title that person holds, or what the team is responsible for). Don’t take the long way round. <br /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2026-04-08T22:52:40+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🏋️‍♂️ Building the Deficit app</title><link href="http://localhost:4000/deficit-app/" rel="alternate" type="text/html" title="🏋️‍♂️ Building the Deficit app" /><published>2026-04-08T08:00:00+00:00</published><updated>2026-04-08T08:00:00+00:00</updated><id>http://localhost:4000/deficit-app</id><content type="html" xml:base="http://localhost:4000/deficit-app/"><![CDATA[<p><img src="/assets/img/deficit/landing.png" alt="Deficit app" style="display:block;width:50%;max-width:280px;margin:0 auto 2rem;border-radius:0.75rem;box-shadow:0 8px 24px rgba(0,0,0,0.15);" /></p>
+
+<p>I try to keep myself in relatively good shape. Alongside my usual workout/football routines, I’ve also been half-heartedly tracking my calorie intake for the last 18 months. But when the new year hit, I started to take things a little more seriously.<br />
+<br /></p>
+
+<p><b>To help me, I’ve built the <a href="https://mydeficit.app">Deficit app</a></b>. This blog introduces the app and the story behind it.</p>
+
+<h3 id="-why-i-built-it">💭 Why I built it</h3>
+<p><br />Pre the Deficit app, my daily routine looked something like this:</p>
+<ul>
+  <li>Log my workouts and progress with <a href="https://www.hevyapp.com/">Hevy</a></li>
+  <li>Track my workout calories burned using the <a href="https://apps.apple.com/us/app/apple-fitness/id1208224953">Apple Fitness app</a> on my Apple Watch</li>
+  <li>Track my calories consumed using <a href="https://www.myfitnesspal.com/">myfitnesspal</a></li>
+  <li>Use <a href="https://www.eufy.com/uk/collections/smart-scale">eufy smart scales</a> to track my weight, body fat %, and muscle mass
+<br /></li>
+</ul>
+
+<p>These apps are good in isolation for the thing I need them to do, but I didn’t have one place where I could pull all of this data together and visualise it easily. So I began logging all of this manually into a Google Sheet each day — looking at things like daily/weekly/monthly total calories consumed/burned, averages, and body composition changes over time.</p>
+
+<p>But after three months, it was starting to become a bit of a pain to manage that spreadsheet from my phone quickly and easily each day.</p>
+
+<p><br />
+So, of course I did what any reasonable engineer in my position would do. I picked up my laptop and burnt through a load of Claude tokens.<br />
+<br /></p>
+
+<p>I worked on this over the course of the April 2026 bank holiday weekend in relatively short bursts, and the outcome from that is <a href="https://mydeficit.app">Deficit app</a>. It’s available for you to use for free if a) you struggle with these problems too, and b) you’re happy to send me feedback on how I could make it better.</p>
+
+<h2 id="-deficit">💪 Deficit</h2>
+<p><br />
+Deficit is a mobile-first web app that tracks calories, macros and body composition. It replicates what my spreadsheet was doing for me, but takes away all of the pain involved with managing weird formulas and an ever-growing data set.</p>
+
+<p>It takes my daily calorie budget (TDEE — total daily energy expenditure) then combines this with some manual inputs; calories I’ve consumed, calories burned from exercise, my macro split — and then tells me whether I’m in a calorie deficit or surplus (not just today, but across any period I care about).</p>
+
+<p>It also tracks weight and body fat over time, and if I set a target (say, reach 15% body fat by a certain date), it tracks whether my current pace is going to get me there on time, allowing me to change my targets / goals to boost my chances of success.</p>
+
+<p>Here’s what it looks like:</p>
+
+<style>
+  .deficit-showcase {
+    margin: 2rem -1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .deficit-showcase::-webkit-scrollbar { display: none; }
+  .deficit-showcase-inner {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.5rem 1rem 1rem;
+  }
+  .deficit-screenshot {
+    flex: 0 0 auto;
+    width: 55vw;
+    max-width: 180px;
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    display: block;
+  }
+  @media (min-width: 769px) {
+    .deficit-showcase { overflow-x: visible; margin: 2rem 0; }
+    .deficit-showcase-inner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      padding: 0;
+    }
+    .deficit-screenshot { width: 100%; max-width: none; }
+  }
+</style>
+
+<div class="deficit-showcase">
+  <div class="deficit-showcase-inner">
+    <img class="deficit-screenshot" src="/assets/img/deficit/today.png" alt="Deficit — Today" />
+    <img class="deficit-screenshot" src="/assets/img/deficit/history.png" alt="Deficit — History" />
+    <img class="deficit-screenshot" src="/assets/img/deficit/body.png" alt="Deficit — Body" />
+    <img class="deficit-screenshot" src="/assets/img/deficit/config.png" alt="Deficit — Config" />
+  </div>
+</div>
+
+<h3 id="-try-it">👉 Try it!</h3>
+<p><br />
+It’s free, works on any device, and you can install it to your home screen so it basically looks like an app anyway (if you’re an iPhone user). <a href="https://mydeficit.app">Sign in with Google to get started</a>.</p>
+
+<h3 id="️how-i-built-it">👷‍♂️How I built it</h3>
+<p><br />
+The product decisions were more interesting than writing the code and working with Claude, in all honesty, but I loved the process of building and iterating on it. For example, removing the manual “save” button when entering inputs at first and replacing it with an auto-save feature had a way bigger impact on the usability of the app than I was expecting.</p>
+
+<p>The app itself is a React single-page app, built with Vite and styled with Tailwind CSS. Data is stored in Firebase Firestore (a NoSQL document database that syncs in real time), with Firebase Auth handling Google sign-in. Charts are rendered with Recharts, date logic handled by date-fns. I made the call to not bother publishing via an app store and just keep it relatively cheap and hassle free running as a web app.</p>
+
+<p>I’ve not done a lot of frontend work in my career but this was fun to build, and I even had a play around with running my test suite with Vitest which was another technology I’d not worked with before (Claude helped!).</p>
+
+<h3 id="-whats-next">🔜 What’s next</h3>
+<p><br />
+I think I could (will) over-engineer this so I’m desperately trying to avoid that — but the long-term vision for me is to be able to also integrate the other apps I’m using that feed in to this (Hevy, Fitness, Myfitnesspal) and package it up as an all-in-one offering. I think that’s at risk of being a pretty bloated product, but I’ll figure that out over time.</p>
+
+<p>For now I’m just happy I don’t have to manage the spreadsheet.
+<br />
+<br /></p>
+
+<p><b><center><a href="https://mydeficit.app">Try out Deficit </a> and let me know your feedback via <a href="mailto:hello@mydeficit.app">hello@mydeficit.app</a>.</center></b></p>]]></content><author><name>Luke Briscoe</name></author><category term="side-projects" /><category term="engineering" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">🛩️ Fly direct</title><link href="http://localhost:4000/fly-direct/" rel="alternate" type="text/html" title="🛩️ Fly direct" /><published>2026-03-29T08:30:00+00:00</published><updated>2026-03-29T08:30:00+00:00</updated><id>http://localhost:4000/fly-direct</id><content type="html" xml:base="http://localhost:4000/fly-direct/"><![CDATA[<p>“Fly direct”. That is to say, if you have a problem that cuts across teams, figure out who the best person or team is to help you address the problem, and go and speak to them directly. Don’t go through your tech lead or send things up a chain for management to pass back down somewhere else. Go straight to where you think the answer might be, and ask your question (regardless of what job title that person holds, or what the team is responsible for). Don’t take the long way round. <br /></p>
 
 <p><br /> From personal experience it’s very rare that someone will tell you to go away or won’t want to share their knowledge with you. Sure you might get ignored, but that’s a useful signal you might want to listen to about the culture you’re working in (and do something about it). You might even get sent to someone else to help — but you’re one step closer to the answer.</p>
 <p align="center"> 
@@ -232,64 +331,4 @@ I’d love to hear from you about where this has worked in your experience, and 
 
 <p>This was my first time behind the bright lights in the recording studio in Las Vegas, but I had a great time sharing a very high-level overview of the platform we’ve built at Monzo.</p>
 
-<p>📽 <a href="https://www.youtube.com/watch?v=O3s3MWD-UUA">You can watch my talk here on the AWS Youtube channel</a></p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[A very short post to highlight the ‘This is my architecture’ session I was invited to run at AWS Re:Invent in December 2023.]]></summary></entry><entry><title type="html">💷 The Frugal Architect</title><link href="http://localhost:4000/the-frugal-architect/" rel="alternate" type="text/html" title="💷 The Frugal Architect" /><published>2023-12-19T14:00:00+00:00</published><updated>2023-12-19T14:00:00+00:00</updated><id>http://localhost:4000/the-frugal-architect</id><content type="html" xml:base="http://localhost:4000/the-frugal-architect/"><![CDATA[<p align="center"> 
-  <img width="600" height="300" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/DALL%C2%B7E%202023-12-19%2013.31.05%20-%20A%20digital%20illustration%20for%20a%20blog%20article%20about%20frugal%20architecture%20in%20cloud%20computing.%20The%20scene%20is%20a%20modern,%20sleek%20office%20environment%20with%20large%20pan.png?raw=true" />
-</p>
-
-<p>I was lucky enough to head over to Vegas earlier this month for AWS re:Invent. We had a couple of speaking slots to talk about the work we’ve done at Monzo over the last year, and it was my first taste of a conference of this size. I’d say <em>surreal</em> is the word.</p>
-
-<p>While there, I had the opportunity to go to <a href="https://www.youtube.com/watch?v=UTRBVPvzt9w">Werner Vogels’ keynote</a> (it’s worth a watch if you have the time - even just for the production value!). He spent a big chunk of it introducing <a href="https://thefrugalarchitect.com/">“The Frugal Architect”</a>.</p>
-
-<p>This resonated with me personally as a few years back I had one of those moments of realisation that the AWS bill was getting too big. Ever since, a day hasn’t passed without me contemplating cloud cost optimisation.</p>
-
-<p>This post is a roundup of the key themes Vogels introduced, with a sprinkling of how I think this applies to engineering teams (with an obvious bias towards Platform given my current responsibilities 😄).</p>
-
-<p>(On a lighter note, I found it amusing yet insightful to hear the CTO of a leading cloud provider emphasise the importance of controlling spend – but better spent with them than a competitor, I guess…)</p>
-
-<h2 id="3️⃣-three-pillars-of-frugality">3️⃣ Three pillars of frugality</h2>
-<p>I like the way he grouped the key laws into three pillars of <em>Design, Measure</em>, and <em>Optimise</em>.</p>
-
-<p>I’m intending to use these deliberately with my teams next year as I think it provides a nice condensed way of thinking about cost optimisation. I also think the law themselves do a good job of framing cloud frugality as something that every engineer needs to care about, not just the team who operate the platform. Let’s briefly dig in to each of these pillars.</p>
-
-<h3 id="-design">🎨 Design</h3>
-
-<ul>
-  <li><em>Cost is a non-functional requirement</em></li>
-  <li><em>Systems that last align cost to business</em></li>
-  <li><em>Architecting is a series of trade-offs</em></li>
-</ul>
-
-<p>But how do you do this? For me this means treating cost as a first class citizen regardless of what area of the business you’re working in. My experience running platform teams that abstract away complexity for engineers (so they can focus on building great products for customers and not solving infra-related problems) is that we can often abstract away the cost from them too. If you operate a central platform, there’s a risk cost becomes <em>your</em> problem to solve rather than something that’s considered upfront by the teams building.</p>
-
-<p>Aligning cost to business makes sense to me - do you understand the true cost of offering your product/feature?  Establishing how much you’re willing to spend on operating a product or feature is a key first step - and you can make the right trade offs from then on.</p>
-
-<p><em>A genuine question that I’d love to hear from you about – how do you integrate cost considerations into your design processes?</em></p>
-
-<h3 id="-measure">📊 Measure</h3>
-
-<ul>
-  <li><em>Unobserved systems lead to unknown costs</em></li>
-  <li><em>Cost aware architectures implement cost controls</em></li>
-</ul>
-
-<p>I think this pillar is obvious (especially if you’ve had to solve any kind of cost problem in the past). If you don’t know what you’re spending, you can’t track it. And if you can’t track it, how will you know what to optimise?</p>
-
-<p>If you’re watching Vogels’ talk back, I really liked the example used about the identical houses in Amsterdam who had wildly varying energy consumption. Turns out that the houses who had their energy meters visible in the hallway for residents consumed significantly less energy than the ones who had theirs in the basement…</p>
-
-<h3 id="-optimise">📉 Optimise</h3>
-
-<ul>
-  <li><em>Cost optimisation is incremental</em></li>
-  <li><em>Unchallenged success leads to assumptions</em></li>
-</ul>
-
-<p>‘Cost optimisation is incremental’ is probably my favourite law of them all. Reaffirming that cost optimisation is never ‘done’ is an important message for teams internally. Set up your observability, put sensible thresholds and alerts in place, and keep deliberately chipping away at it - just as you would your technical debt. Sounds super obvious, right…but are you doing it?!</p>
-
-<h2 id="-frugal-architecture-in-practice">🤾 Frugal architecture in practice</h2>
-<p>Embracing the role of a frugal architect isn’t just about cutting costs. It’s more than that - it’s about every engineer taking responsibility for making sustainable, well considered decisions about how and when to build.</p>
-
-<p>Broadly I felt validated that I’m approaching the problem of cost control and optimisation in the ‘right’ way so far. It provides a useful framework that we can apply in our environments to make the point that spending money sensibly is the responsibility of <em>all</em> engineers.</p>
-
-<p>I’d love to hear from you about the various tools and approaches you’ve found effective — feel free to get in touch!</p>
-
-<center>All images in this post were generated using DALL-E</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+<p>📽 <a href="https://www.youtube.com/watch?v=O3s3MWD-UUA">You can watch my talk here on the AWS Youtube channel</a></p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[A very short post to highlight the ‘This is my architecture’ session I was invited to run at AWS Re:Invent in December 2023.]]></summary></entry></feed>
