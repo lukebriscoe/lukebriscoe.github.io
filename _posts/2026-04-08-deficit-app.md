@@ -89,11 +89,11 @@ It's free, works on any device, and you can install it to your home screen so it
 
 ### 👷‍♂️How I built it
 <br>
-The product decisions were more interesting than writing the code and working with Claude, in all honesty, but I loved the process of building and iterating on it. For example, removing the manual “save” button when entering inputs at first and replacing it with an auto-save feature had a way bigger impact on the usability of the app than I was expecting. 
+The product decisions were more interesting than writing the code and working with Claude, but I loved the process of building and iterating on it. For example, removing the manual “save” button when entering inputs at first and replacing it with an auto-save feature had a way bigger impact on the usability of the app than I was expecting. I get a real buzz from shipping those kind of improvements, even if it's only to one customer (me!).
 
 The app itself is a React single-page app, built with Vite and styled with Tailwind CSS. Data is stored in Firebase Firestore (a NoSQL document database that syncs in real time), with Firebase Auth handling Google sign-in. Charts are rendered with Recharts, date logic handled by date-fns. I made the call to not bother publishing via an app store and just keep it relatively cheap and hassle free running as a web app.
 
-I’ve not done a lot of frontend work in my career but this was fun to build, and I even had a play around with running my test suite with Vitest which was another technology I’d not worked with before (Claude helped!).
+I’ve not done a lot of frontend work in my career but this was fun to build, and I even had a play around with running my test suite with Vitest which was another technology I’d not worked with before this project.
 
 ### 🔜 What's next
 <br>
