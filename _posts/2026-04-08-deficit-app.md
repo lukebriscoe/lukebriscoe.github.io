@@ -7,10 +7,10 @@ tags: [side-projects, engineering]
 ---
 <img src="/assets/img/deficit/landing.png" alt="Deficit app" style="display:block;width:50%;max-width:280px;margin:0 auto 2rem;border-radius:0.75rem;box-shadow:0 8px 24px rgba(0,0,0,0.15);">
 
-I try to keep myself in relatively good shape. Alongside my usual workout/football routines, I’ve also been half-heartedly tracking my calorie intake for the last 18 months. But when the new year hit, I started to take things a little more seriously.<br>
+I try to keep myself in relatively good shape. Alongside my usual workout routines, I’ve also been half-heartedly tracking my calorie intake for the last 12 months. Boringly since the start of the year, I've been taking that a little more seriously.<br>
 <br>
 
-<b>To help me, I’ve built the <a href="https://mydeficit.app">Deficit app</a></b>. This blog introduces the app and the story behind it.
+<b>And as a result, I’ve built the <a href="https://mydeficit.app">Deficit app</a> to help me</b>. This blog introduces the app and the story behind it.
 
 ### 💭 Why I built it
 <br>Pre the Deficit app, my daily routine looked something like this:
