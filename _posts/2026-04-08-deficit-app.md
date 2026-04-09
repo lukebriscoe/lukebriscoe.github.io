@@ -30,9 +30,8 @@ So, of course I did what any reasonable engineer in my position would do. I pick
 
 I worked on this over the course of the April 2026 bank holiday weekend in relatively short bursts, and I'm pretty happy with the outcome overall. It does what I need it to!
 
-## 💪 Deficit
-<br>
-Deficit is a mobile-first web app that tracks calories, macros and body composition. It replicates what my spreadsheet was doing for me, but takes away all of the pain involved with managing weird formulas and an ever-growing data set. 
+### 💪 Deficit
+<br>Deficit is a mobile-first web app that tracks calories, macros and body composition. It replicates what my spreadsheet was doing for me, but takes away all of the pain involved with managing weird formulas and an ever-growing data set. 
 
 It takes my daily calorie budget (TDEE — total daily energy expenditure) then combines this with some manual inputs; calories I’ve consumed, calories burned from exercise, my macro split — and then tells me whether I’m in a calorie deficit or surplus (not just today, but across any period I care about).
 
