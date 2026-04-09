@@ -102,5 +102,5 @@ For now I’m just happy I don’t have to manage the spreadsheet.
 <br>
 <br>
 
-<b><center><a href="https://mydeficit.app">Try out Deficit </a> and let me know your feedback! — <a href="mailto:hello@mydeficit.app">hello@mydeficit.app</a>.</center></b>
+<b><a href="https://mydeficit.app">Try out Deficit </a> and let me know your feedback! — <a href="mailto:hello@mydeficit.app">hello@mydeficit.app</a></b>
 
