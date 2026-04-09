@@ -10,7 +10,8 @@ tags: [side-projects, engineering]
 I try to keep myself in relatively good shape. Alongside my usual workout routines, I’ve also been half-heartedly tracking my calorie intake for the last 12 months. Boringly since the start of the year, I've been taking that a little more seriously.<br>
 <br>
 
-<b>To help me keep track of my progress, I built the <a href="https://mydeficit.app">Deficit app</a>.</b> This blog introduces the app and the story behind it.
+<b>To help me keep track of my progress, I built the <a href="https://mydeficit.app">Deficit app</a>.</b> 
+<br>This blog introduces the app and the story behind it.
 
 ### 💭 Why I built it
 <br>Pre the Deficit app, my daily routine looked something like this:
