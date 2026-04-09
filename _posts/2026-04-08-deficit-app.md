@@ -10,10 +10,10 @@ tags: [side-projects, engineering]
 I try to keep myself in relatively good shape. Alongside tracking my workouts, I’ve also been half-heartedly tracking my calorie intake for the last 12 months. Boringly since the start of the year, I've been more deliberate with keeping a track of my progress.<br>
 <br>
 
-<b>To help me keep track of everythings, I built the <a href="https://mydeficit.app">Deficit app</a>.</b> This blog introduces the app and the story behind it.
+<b>To help me keep track of everything, I built the <a href="https://mydeficit.app">Deficit app</a>.</b> This was a fun little side project and this blog introduces the app and the story behind it.
 
 ### 💭 Why I built it
-<br>Pre the Deficit app, my daily routine looked something like this:
+<br>My daily routine looked something like this:
 - Log my workouts and progress with <a href="https://www.hevyapp.com/">Hevy</a>
 - Track my workout calories burned using the <a href="https://apps.apple.com/us/app/apple-fitness/id1208224953">Apple Fitness app</a> on my Apple Watch 
 - Track my calories consumed using <a href="https://www.myfitnesspal.com/">myfitnesspal</a>
