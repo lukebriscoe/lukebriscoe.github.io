@@ -10,7 +10,7 @@ mode: light # default theme "dark" | "light"
 author:
   name: Luke Briscoe # author name
   bio: >- # your bio for the world
-    Hello 👋 This is my personal blog where I talk about technology and engineering leadership. Currently Engineering Director leading Platform and Data at <a href="https://monzo.com/">Monzo Bank</a> 🏦.
+    Hello 👋 This is my personal blog where I talk about technology and engineering leadership. Currently Engineering Director leading Platform, Data and Security engineering at <a href="https://monzo.com/">Monzo Bank</a> 🏦.
   avatar: /assets/img/avatar.jpg # change with your own avatar 
 
 # URL settings
