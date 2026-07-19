@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2026-04-09T17:39:36+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🏋 Building the Deficit app</title><link href="http://localhost:4000/deficit-app/" rel="alternate" type="text/html" title="🏋 Building the Deficit app" /><published>2026-04-08T08:00:00+00:00</published><updated>2026-04-08T08:00:00+00:00</updated><id>http://localhost:4000/deficit-app</id><content type="html" xml:base="http://localhost:4000/deficit-app/"><![CDATA[<p><img src="/assets/img/deficit/landing.png" alt="Deficit app" style="display:block;width:50%;max-width:280px;margin:0 auto 2rem;border-radius:0.75rem;box-shadow:0 8px 24px rgba(0,0,0,0.15);" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-UK"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-UK" /><updated>2026-07-19T20:34:28+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Luke Briscoe</title><subtitle></subtitle><author><name>Luke Briscoe</name></author><entry><title type="html">🤖 LDX3 Director+ workshop: Beyond the hype with AI tools</title><link href="http://localhost:4000/ldx3-beyond-the-hype/" rel="alternate" type="text/html" title="🤖 LDX3 Director+ workshop: Beyond the hype with AI tools" /><published>2026-06-21T08:00:00+00:00</published><updated>2026-06-21T08:00:00+00:00</updated><id>http://localhost:4000/ldx3-beyond-the-hype</id><content type="html" xml:base="http://localhost:4000/ldx3-beyond-the-hype/"><![CDATA[<p align="center"> 
+  <img width="300" height="220" src="https://github.com/lukebriscoe/lukebriscoe.github.io/blob/main/assets/img/IMG_0833%202.jpg?raw=true" />
+</p>
+<p><br />
+Last month I was back at <a href="https://leaddev.com/leaddev-london/agenda/">LDX3 (LeadDev) in London</a> running a second Director+ workshop. This time it was on another topic I’m living and breathing in my day job right now:
+<br /></p>
+<blockquote>
+  <p>How do you get beyond the hype of AI, and adopt and measure AI tools safely in regulated, high-velocity engineering teams?</p>
+</blockquote>
+
+<p>I put this workshop together to also crowdsource some ideas from other leaders in the industry, and personally I learnt lots from running the session. If you were there on the day, thank you so much for your willingness to engage and share your experience 🙏
+<br /></p>
+
+<p>In the workshop we explored two key questions:</p>
+<ol>
+  <li>How do you design guardrails that catch AI debt, without killing velocity and properly considering regulation?</li>
+  <li>How do you measure real Return on Investment (ROI) beyond lines of code and PR throughput?</li>
+</ol>
+
+<p>Everything I covered was based on my own personal experience, and real problems I’m either solving (or have solved!) in my day-to-day role. <br /><br /></p>
+
+<hr />
+
+<p>If you’d like me to run a version of this session for your organisation, <a href="https://lukebriscoe.com/about/">get in touch through the links on my about page</a>. I run it as a 90 minute interactive workshop that leaves all participants with follow-on actions and commitments, rather than just generate more noise for your teams!
+<br />
+<br /> <a href="https://github.com/lukebriscoe/ldx3-2026/blob/main/2026-LDX3-Beyond-the-hype.pdf">The slides I used in the workshop are available on Github.</a></p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[Last month I was back at LDX3 (LeadDev) in London running a second Director+ workshop. This time it was on another topic I’m living and breathing in my day job right now: How do you get beyond the hype of AI, and adopt and measure AI tools safely in regulated, high-velocity engineering teams?]]></summary></entry><entry><title type="html">🏋 Building the Deficit app</title><link href="http://localhost:4000/deficit-app/" rel="alternate" type="text/html" title="🏋 Building the Deficit app" /><published>2026-04-08T08:00:00+00:00</published><updated>2026-04-08T08:00:00+00:00</updated><id>http://localhost:4000/deficit-app</id><content type="html" xml:base="http://localhost:4000/deficit-app/"><![CDATA[<p><img src="/assets/img/deficit/landing.png" alt="Deficit app" style="display:block;width:50%;max-width:280px;margin:0 auto 2rem;border-radius:0.75rem;box-shadow:0 8px 24px rgba(0,0,0,0.15);" /></p>
 
 <p>Alongside tracking my workouts consistently, I’ve also been half-heartedly tracking my calorie intake for the last 12 months. Boringly since the start of the year, I’ve been more deliberate with keeping a track of my progress as I go after some new fitness goals.<br />
 <br /></p>
@@ -326,8 +351,4 @@ I’d love to hear from you about where this has worked in your experience, and 
 <br />
 <br /></p>
 
-<center>Images in this post were generated using DALL-E</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">🎥 This is my architecture at AWS re:Invent - Monzo Bank</title><link href="http://localhost:4000/monzo-architecture/" rel="alternate" type="text/html" title="🎥 This is my architecture at AWS re:Invent - Monzo Bank" /><published>2024-04-27T15:00:00+00:00</published><updated>2024-04-27T15:00:00+00:00</updated><id>http://localhost:4000/monzo-architecture</id><content type="html" xml:base="http://localhost:4000/monzo-architecture/"><![CDATA[<p>A very short post to highlight the ‘This is my architecture’ session I was invited to run at AWS Re:Invent in December 2023.</p>
-
-<p>This was my first time behind the bright lights in the recording studio in Las Vegas, but I had a great time sharing a very high-level overview of the platform we’ve built at Monzo.</p>
-
-<p>📽 <a href="https://www.youtube.com/watch?v=O3s3MWD-UUA">You can watch my talk here on the AWS Youtube channel</a></p>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[A very short post to highlight the ‘This is my architecture’ session I was invited to run at AWS Re:Invent in December 2023.]]></summary></entry></feed>
+<center>Images in this post were generated using DALL-E</center>]]></content><author><name>Luke Briscoe</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
