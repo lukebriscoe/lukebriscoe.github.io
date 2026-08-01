@@ -10,7 +10,7 @@ But since the rise of AI and the increasing amount of slop making its way onto t
 
 As a result, I've found myself deleting em-dashes where I've used them recently. And the thing that's weighing on me is that I want my writing to sound like me, but the way I naturally write now might cause the reader to assume I didn't write it — so I'm second-guessing my own writing habits 🙃
 
-I'm sharing this post as I know others are struggling with this too, and I want to highlight just one of the many hidden costs of working with more and more AI tools. And for the record I am very pro-AI and I think it's making us all more productive when used deliberately — but it's not all upside...
+I'm sharing this post as I know others are struggling in various different ways when working with AI, and I want to highlight just one of the many hidden costs of working with more and more with these tools. For the record I am very pro-AI and I think it's making us all more productive when used deliberately — but it's not all upside...
 
 ## 🧠 The cost
 
